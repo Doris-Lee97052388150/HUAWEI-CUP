@@ -1,0 +1,131 @@
+\section{问题重述}
+\subsection{研究背景与任务}
+\Placeholder{简述研究对象、应用场景和决策需求，提炼题目给定的数据与约束，避免大段照抄赛题。}
+
+\subsection{待解决的问题}
+\Placeholder{逐项写清每个问题的输入、所求量、约束与输出形式；按赛题实际设问数量增删。}
+
+\section{问题分析}
+\Placeholder{结合图~\ref{fig:route}，说明主要难点、问题之间的依赖关系，以及所选模型的适用性和方法取舍。}
+\begin{figure}[htbp]
+  \centering
+  \FigurePlaceholder{总体建模流程图}
+  \caption{\Placeholder{总体建模流程与问题关系}}
+  \label{fig:route}
+\end{figure}
+\FloatBarrier
+
+\section{模型假设}
+\begin{enumerate}[label=假设\arabic*：,labelwidth=4em,labelsep=0.5em,leftmargin=4.5em,labelindent=0pt,align=left]
+  \item \Placeholder{写明假设内容、题目或数据依据及可能影响的结论范围。}
+  \item \Placeholder{补充必要假设，并在后文检验影响结论的关键假设。}
+\end{enumerate}
+
+\section{符号说明}
+\begin{table}[htbp]
+  \centering
+  \caption{主要符号及其含义}
+  \label{tab:symbols}
+  \begin{tabularx}{\linewidth}{L{22mm} Y L{36mm}}
+    \toprule
+    符号 & 含义 & 单位或范围 \\
+    \midrule
+    \Placeholder{符号} & \Placeholder{变量或参数定义} & \Placeholder{单位} \\
+    \Placeholder{符号} & \Placeholder{变量或参数定义} & \Placeholder{取值范围} \\
+    \Placeholder{符号} & \Placeholder{变量或参数定义} & \Placeholder{单位} \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+\FloatBarrier
+
+\section{数据处理}
+\subsection{数据来源与质量检查}
+\Placeholder{列出附件、字段、样本数量、统计口径及单位。补充数据须注明真实来源和获取日期，说明缺失、异常、重复与测量误差情况。}
+
+\subsection{预处理与特征构造}
+\Placeholder{说明缺失值和异常值处理、量纲统一与特征构造。预测任务应交代训练、验证和测试划分，避免未来信息泄漏。}
+
+\section{问题一的模型建立与求解}
+\subsection{变量定义与模型建立}
+\Placeholder{给出变量、参数、目标、约束及推导或真实引用依据。式~\eqref{eq:model} 仅演示公式格式，须替换为实际模型；引用样式见文献\cite{book-placeholder}，书籍还须在引用处注明页码。}
+\begin{equation}
+  y=f(\boldsymbol{x};\boldsymbol{\theta})
+  \label{eq:model}
+\end{equation}
+\Placeholder{解释式中各量的含义、单位、范围及边界条件，并与符号表保持一致。}
+
+\subsection{求解算法与实现}
+\Placeholder{说明算法步骤、初始化、参数、停止条件、求解器状态和运行环境。随机算法记录种子，按需要报告计算时间。}
+
+\subsection{结果展示与解释}
+\begin{table}[htbp]
+  \centering
+  \caption{\Placeholder{问题一的核心结果}}
+  \label{tab:results}
+  \begin{tabularx}{\linewidth}{Y Y Y Y}
+    \toprule
+    对象或方案 & 评价量及单位 & 结果 & 含义 \\
+    \midrule
+    \Placeholder{对象} & \Placeholder{指标与单位} & \Placeholder{待计算} & \Placeholder{解释} \\
+    \Placeholder{对象} & \Placeholder{指标与单位} & \Placeholder{待计算} & \Placeholder{解释} \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+\FloatBarrier
+\Placeholder{根据表~\ref{tab:results} 回答问题一的具体设问，解释数量级、约束满足情况及实际意义，保证图表与文字中的数值一致。}
+
+\section{问题二的模型建立与求解}
+\subsection{模型建立}
+\Placeholder{说明相对前一问变化的条件、新增变量或约束，以及前一问结果如何作为本问输入；需要时引用真实期刊文献\cite{journal-placeholder}。}
+
+\subsection{求解与结果分析}
+\Placeholder{说明求解方法与实现，列出题目需要的数值、排序、预测或决策结果，并解释关键机制。}
+\begin{figure}[htbp]
+  \centering
+  \FigurePlaceholder{核心结果图}
+  \caption{\Placeholder{问题二的核心结果及不确定性}}
+  \label{fig:results}
+\end{figure}
+\FloatBarrier
+\Placeholder{说明图~\ref{fig:results} 的坐标、单位、数据来源、样本量及误差带含义，对照方案采用一致的数据与评价口径。}
+
+\subsection{验证与讨论}
+\Placeholder{选择残差检查、留出验证、可行性检验、边界验证或基准比较，解释不支持预期的现象。英文文献也应核验原文后再引用\cite{english-placeholder}。}
+
+\section{问题三的模型建立与求解}
+\subsection{模型扩展与求解}
+\Placeholder{说明复杂情景或新增任务如何建模，交代方法、输入输出、参数与求解步骤。实际无第三问时删除本章，更多设问可复制本章。}
+
+\subsection{结果与决策建议}
+\Placeholder{列出所求结果、适用条件与限制，建议须与量化结果对应，并说明执行成本或风险。}
+
+\section{模型检验与敏感性分析}
+\subsection{有效性与正确性检验}
+\Placeholder{检查量纲、守恒或逻辑关系、约束与边界，采用基准解、已知特例或独立计算核对；报告误差、容差与求解状态，区分最优解和可行解。}
+\begin{table}[htbp]
+  \centering
+  \caption{\Placeholder{模型与基准方案的比较}}
+  \label{tab:comparison}
+  \begin{tabularx}{\linewidth}{Y Y Y Y}
+    \toprule
+    方法 & 指标及方向 & 评价结果 & 比较条件 \\
+    \midrule
+    \Placeholder{基准} & \Placeholder{指标与方向} & \Placeholder{待计算} & \Placeholder{相同数据} \\
+    \Placeholder{本文方法} & \Placeholder{相同指标} & \Placeholder{待计算} & \Placeholder{相同预算} \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+\FloatBarrier
+
+\subsection{敏感性与稳健性分析}
+\Placeholder{选择关键参数或假设，说明扰动范围及依据，比较输出变化；涉及随机性的计算按需要重复并报告波动，说明结论失效的条件。}
+
+\section{模型评价与改进}
+\subsection{优点与局限}
+\Placeholder{优点对应已验证的效果，局限说明对结果的实际影响，不写空泛评价。}
+
+\subsection{改进方向}
+\Placeholder{提出具体改进方法、所需数据与验证方式，区分已完成的工作和未来计划。}
+
+\section{结论}
+\Placeholder{逐项回应赛题任务，概括最重要的量化结果、意义及成立条件，不引入正文未展示的新实验或新数字。引用网上资料时核实来源及访问日期\cite{web-placeholder}。}

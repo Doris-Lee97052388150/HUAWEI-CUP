@@ -1,0 +1,43 @@
+\newif\ifCompetitionFonts
+\CompetitionFontstrue
+\IfFileExists{fonts/simsun.ttc}{
+  \setCJKmainfont[Path=fonts/,AutoFakeBold=2]{simsun.ttc}
+  \setCJKfamilyfont{zhsong}[Path=fonts/,AutoFakeBold=2]{simsun.ttc}
+}{
+  \IfFontExistsTF{SimSun}{
+    \setCJKmainfont[AutoFakeBold=2]{SimSun}
+    \setCJKfamilyfont{zhsong}[AutoFakeBold=2]{SimSun}
+  }{
+    \CompetitionFontsfalse
+    \setCJKmainfont[BoldFont=FandolSong-Bold.otf]{FandolSong-Regular.otf}
+    \setCJKfamilyfont{zhsong}[BoldFont=FandolSong-Bold.otf]{FandolSong-Regular.otf}
+  }
+}
+\IfFileExists{fonts/simhei.ttf}{
+  \setCJKsansfont[Path=fonts/,AutoFakeBold=2]{simhei.ttf}
+  \setCJKfamilyfont{zhhei}[Path=fonts/,AutoFakeBold=2]{simhei.ttf}
+}{
+  \IfFontExistsTF{SimHei}{
+    \setCJKsansfont[AutoFakeBold=2]{SimHei}
+    \setCJKfamilyfont{zhhei}[AutoFakeBold=2]{SimHei}
+  }{
+    \CompetitionFontsfalse
+    \setCJKsansfont[BoldFont=FandolHei-Bold.otf]{FandolHei-Regular.otf}
+    \setCJKfamilyfont{zhhei}[BoldFont=FandolHei-Bold.otf]{FandolHei-Regular.otf}
+  }
+}
+\providecommand{\songti}{\CJKfamily{zhsong}}
+\providecommand{\heiti}{\CJKfamily{zhhei}}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\IfFontExistsTF{STXinwei}{
+  \newCJKfontfamily\CompetitionFont{STXinwei}
+}{
+  \IfFontExistsTF{华文新魏}{
+    \newCJKfontfamily\CompetitionFont{华文新魏}
+  }{\newcommand{\CompetitionFont}{\heiti}}
+}
+\ifCompetitionFonts
+  \typeout{HUAWEICUP FONT CHECK: SimSun and SimHei loaded.}
+\else
+  \PackageWarningNoLine{huaweicup}{Preview CJK fonts active. Install legally obtained SimSun and SimHei before submission; see README.md}
+\fi
