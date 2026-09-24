@@ -1,0 +1,16 @@
+﻿role,path,bytes,sha256,status
+problem_docx,,,,NOT_FOUND_OR_OPTIONAL
+geo_pdf,,,,NOT_FOUND_OR_OPTIONAL
+comm_xlsx,,,,NOT_FOUND_OR_OPTIONAL
+relay_xlsx,,,,NOT_FOUND_OR_OPTIONAL
+transport_xlsx,,,,NOT_FOUND_OR_OPTIONAL
+node_xlsx,,,,NOT_FOUND_OR_OPTIONAL
+demand_xlsx,,,,NOT_FOUND_OR_OPTIONAL
+q2_solver,,,,NOT_FOUND_OR_OPTIONAL
+q3_solver,,,,NOT_FOUND_OR_OPTIONAL
+dem_mat,,,,NOT_FOUND_OR_OPTIONAL
+q3_detail,/mnt/data/q4_final/_q3_extracted/output/Q3_详细结果.xlsx,24976,23a1b673b19b09282eec0d51203125cd887d4d47cf4de8555da7e1b06869edc0,FOUND
+q3_zip,/mnt/data/output.zip,736158,4c82be1077813971c9337ca588658253e59ca7421ed556558dbafa35277db29a,FOUND
+template,/mnt/data/结果提交模板(2).xlsx,20893,16f521f29a7103c4ff7c3709ce1696bb9fffa18ce741895e45b7bc7afaf3320a,FOUND
+node_xlsx_used,,,,NOT_FOUND_OR_OPTIONAL
+dem_mat_used,/opt/pyvenv/lib/python3.13/site-packages/mne/channels/data/neighbors/KIT-157_neighb.mat,4939,ce0cd637db12a0343d69d818f29906a9289dca721b7fc566797d63c98ba883e4,FOUND

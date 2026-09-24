@@ -1,0 +1,127 @@
+卷 数据盘 的文件夹 PATH 列表
+卷序列号为 7CAC-AE01
+D:\SF_DIR\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP
+|   1.md
+|   AI对话阶段式分享链接.txt
+|   batch.bat
+|   mulu.txt
+|   华为杯建模模板.zip
+|   山区洪涝灾害下无人机运输与通信协同优化.docx
+|   结果提交模板.xlsx
+|   
++---.vscode
+|       settings.json
+|       
++---code
+|   +---1
+|   |   |   Q1_最终修正版_20percent.py
+|   |   |   question1_direct_return (1).py
+|   |   |   
+|   |   \---1_1
+|   |       |   dem_max_elevation.py
+|   |       |   energy_max_available.py
+|   |       |   horizontal_dist.py
+|   |       |   main.py
+|   |       |   
+|   |       \---__pycache__
+|   |               dem_max_elevation.cpython-311.pyc
+|   |               energy_max_available.cpython-311.pyc
+|   |               horizontal_dist.cpython-311.pyc
+|   |               
+|   +---2
+|   |   +---0
+|   |   |       main.py
+|   |   |       
+|   |   \---1
+|   |           main.py
+|   |           
+|   +---3
+|   \---4
++---output
+|   |   fig1_routes.png
+|   |   fig2_gantt.png
+|   |   fig3_delivery.png
+|   |   fig4_battery.png
+|   |   fig5_alns.png
+|   |   Q2_结果.xlsx
+|   |   Q2_运输架次.csv
+|   |   Q2_逐箱交付.csv
+|   |   
+|   \---2
+|           box_delivery.csv
+|           sortie_schedule.csv
+|           
++---华为杯建模模板
+|   |   华为杯论文模板.docx
+|   |   
+|   \---华为杯LaTeX模板
+|       |   config.tex
+|       |   fonts-overleaf.log
+|       |   fonts-overleaf.tex
+|       |   fonts.tex
+|       |   latexmkrc
+|       |   main.aux
+|       |   main.log
+|       |   main.out
+|       |   main.pdf
+|       |   main.synctex.gz
+|       |   main.tex
+|       |   missfont.log
+|       |   README.md
+|       |   setup.tex
+|       |   
+|       +---assets
+|       |       cpipc.png
+|       |       huawei.jpeg
+|       |       modeling.png
+|       |       xjtu.png
+|       |       
+|       +---fonts
+|       |       README.md
+|       |       
+|       \---sections
+|               abstract.tex
+|               appendix.tex
+|               body.tex
+|               cover.tex
+|               references.tex
+|               
++---数据
+|   +---无人机应急物资运输基础数据
+|   |       中继无人机数据.xlsx
+|   |       物资需求与配送时限.xlsx
+|   |       调度中心与服务区.xlsx
+|   |       运输无人机数据.xlsx
+|   |       通信链路参数.xlsx
+|   |       
+|   \---镇龙乡地理空间数据
+|       |   镇龙乡地理空间数据说明.pdf
+|       |   镇龙乡地理空间详情地图.html
+|       |   
+|       \---镇龙乡及周边地理数据
+|           +---数字高程模型数据（DEM）
+|           |       镇龙乡及周边30米DEM.mat
+|           |       镇龙乡及周边30米DEM.tif
+|           |       
+|           +---村镇点位
+|           |       镇龙乡及周边村镇点位.csv
+|           |       镇龙乡及周边村镇点位.mat
+|           |       
+|           +---水体（面）
+|           |       镇龙乡及周边水体.csv
+|           |       镇龙乡及周边水体.mat
+|           |       
+|           +---水系（线）
+|           |       镇龙乡及周边水系.csv
+|           |       镇龙乡及周边水系.mat
+|           |       
+|           \---道路
+|                   镇龙乡及周边道路.csv
+|                   镇龙乡及周边道路.mat
+|                   
+\---问题一输出
+        安全余量_安全载荷.png
+        安全余量_架次数.png
+        最大安全载荷.png
+        问题一结果.xlsx
+        

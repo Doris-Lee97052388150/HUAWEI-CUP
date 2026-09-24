@@ -1,0 +1,16 @@
+﻿role,path,bytes,sha256,status
+problem_docx,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\山区洪涝灾害下无人机运输与通信协同优化.docx,6971534,0a4f507b91a02a0ea4264973dd432cdcb5b8916c61c24214719665f326d57685,FOUND
+geo_pdf,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\数据\镇龙乡地理空间数据\镇龙乡地理空间数据说明.pdf,85812,6d1522c6832a5d91a108dae0d07954845025c0dabd44af8ee78c7860d7c405e4,FOUND
+comm_xlsx,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\数据\无人机应急物资运输基础数据\通信链路参数.xlsx,10485,1860d153199e7ae460ba36e83b673374e640e19de91ea167f2877271001f5f81,FOUND
+relay_xlsx,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\数据\无人机应急物资运输基础数据\中继无人机数据.xlsx,11082,be52643ff29419233e6a141dca03a04160a8af551cab36d8c49b51bb836bea04,FOUND
+transport_xlsx,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\数据\无人机应急物资运输基础数据\运输无人机数据.xlsx,11746,9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb,FOUND
+node_xlsx,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\数据\无人机应急物资运输基础数据\调度中心与服务区.xlsx,11017,541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38,FOUND
+demand_xlsx,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\数据\无人机应急物资运输基础数据\物资需求与配送时限.xlsx,17474,5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a,FOUND
+q2_solver,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\code\2\q2_solver.py,62200,efb6c9c81c610710ef3a45dc90498e377462946241846136d872c9bd00350778,FOUND
+q3_solver,,,,NOT_FOUND_OR_OPTIONAL
+dem_mat,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\数据\镇龙乡地理空间数据\镇龙乡及周边地理数据\数字高程模型数据（DEM）\镇龙乡及周边30米DEM.mat,6746494,c68703e0cc8f94f4bd52ff6e9974b66a2dae33865f0723ad71c04b6694bf4fbf,FOUND
+q3_detail,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\code\3\output\Q3_详细结果.xlsx,24976,655807e69fce50d45cb4b16217485a68229b451032f887e42571bfb133374af9,FOUND
+q3_zip,,,,NOT_FOUND_OR_OPTIONAL
+template,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\code\4\结果提交模板_Q4已回填.xlsx,15414,006d2a1fe62c164d50afda2bfee1b2aec1475665a45a5a388f62f73cac80a3f0,FOUND
+node_xlsx_used,,,,NOT_FOUND_OR_OPTIONAL
+dem_mat_used,D:\SF_Dir\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\D题\HUAWEI-CUP\数据\镇龙乡地理空间数据\镇龙乡及周边地理数据\数字高程模型数据（DEM）\镇龙乡及周边30米DEM.mat,6746494,c68703e0cc8f94f4bd52ff6e9974b66a2dae33865f0723ad71c04b6694bf4fbf,FOUND

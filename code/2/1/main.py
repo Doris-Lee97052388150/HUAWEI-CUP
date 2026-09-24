@@ -33,7 +33,7 @@ except ImportError:
 # 全局配置
 # ============================================================
 DATA_DIR = "数据"
-DEM_PATH = os.path.join(DATA_DIR, "镇龙乡地理空间数据", "镇龙乡30米DEM.tif")
+DEM_PATH = os.path.join(DATA_DIR, "镇龙乡地理空间数据", "数字高程模型数据（DEM）", "镇龙乡30米DEM.tif")
 OUTPUT_DIR = "output"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

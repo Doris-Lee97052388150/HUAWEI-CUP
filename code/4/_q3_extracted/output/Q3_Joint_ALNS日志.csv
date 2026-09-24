@@ -1,0 +1,21 @@
+﻿iteration,operator,accepted,candidate_score,best_score,detail
+1,reset_one,0,,0.9999999999999999,routes:9
+2,reset_one,0,,0.9999999999999999,routes:4
+3,advance_one,0,,0.9999999999999999,routes:18
+4,conflict_destroy_repair,1,0.948874491124242,0.948874491124242,move:S002-WAT-04|S002-WAT-03
+5,conflict_destroy_repair,1,0.9221655637152416,0.9221655637152416,move:S001-WAT-06
+6,advance_pair,0,,0.9221655637152416,routes:3|14
+7,conflict_destroy_repair,0,,0.9221655637152416,move:S007-WAT-02
+8,conflict_destroy_repair,1,0.8960048941244056,0.8960048941244056,move:S001-WAT-05
+9,conflict_destroy_repair,1,0.8460409699431862,0.8460409699431862,move:S001-WAT-08|S001-WAT-07
+10,advance_pair,0,,0.8460409699431862,routes:24|7
+11,conflict_destroy_repair,0,,0.8460409699431862,move:S007-WAT-02|S006-WAT-03
+12,reset_one,0,,0.8460409699431862,routes:6
+13,conflict_destroy_repair,0,,0.8460409699431862,move:S002-WAT-02|S002-FOD-02
+14,conflict_destroy_repair,0,,0.8460409699431862,move:S007-WAT-02|S006-WAT-03
+15,advance_one,1,0.8460409699431862,0.8460409699431862,routes:16
+16,advance_one,0,,0.8460409699431862,routes:3
+17,advance_pair,0,,0.8460409699431862,routes:6|7
+18,conflict_destroy_repair,0,,0.8460409699431862,move:S002-WAT-02|S002-FOD-02
+19,conflict_destroy_repair,0,,0.8460409699431862,move:S007-WAT-02|S006-WAT-03
+20,exchange_shift,0,,0.8460409699431862,advance r8; delay r24
