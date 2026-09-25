@@ -1,0 +1,17 @@
+{
+  "boxes": 80,
+  "delivered_once": 80,
+  "hard_deadline_violations": 0,
+  "resource_conflicts": 0,
+  "continuous_unproven_intervals": 0,
+  "point_audit_outages": 0,
+  "point_audit_step_s": 1.0,
+  "point_audit_samples": 39846,
+  "certified_intervals": 1126,
+  "minimum_certified_link_margin_db": 0.03638735573836982,
+  "direct_certified_seconds": 22428.606048037527,
+  "relay_backup_seconds": 15708.559051955524,
+  "total_transport_airborne_and_delivery_seconds": 38137.16509999305,
+  "certificate_scope": "piecewise-constant DEM; straight three-stage flights; given deterministic link budget; instantaneous switching",
+  "global_optimality_proved": false
+}

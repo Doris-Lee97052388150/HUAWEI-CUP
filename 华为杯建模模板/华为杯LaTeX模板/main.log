@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.17)  24 SEP 2026 22:33
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.17)  25 SEP 2026 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -906,31 +906,84 @@ Package fontspec Info:
 
 ] (./sections/body.tex
 
-LaTeX Warning: Citation `book-placeholder' on page 2 undefined on input line 50
-.
-
-
-
 [2
 
 ]
-Overfull \hbox (66.1814pt too wide) detected at line 136
-[]\OML/cmm/m/it/12.045 :
+Underfull \hbox (badness 10000) in alignment at lines 80--80
+[][][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 119--119
+[][][][]
  []
 
 
 
 [3]
 
+LaTeX Warning: Citation `zeng2019energy' on page 4 undefined on input line 172.
+
+
+
+
 [4]
 
 [5]
 
+LaTeX Warning: Citation `delorme2016bin' on page 6 undefined on input line 216.
+
+
+
+LaTeX Warning: Citation `balinski1965integer' on page 6 undefined on input line
+ 221.
+
+
+
 [6]
+
+LaTeX Warning: Citation `ehrgott2005multicriteria' on page 7 undefined on input
+ line 234.
+
+
+LaTeX Warning: Citation `burden2015numerical' on page 7 undefined on input line
+ 266.
+
+
 
 [7]
 
+LaTeX Warning: Reference `18' on page 8 undefined on input line 293.
+
+
+LaTeX Warning: Reference `20' on page 8 undefined on input line 297.
+
+
+LaTeX Warning: Reference `21' on page 8 undefined on input line 297.
+
+
+
 [8]
+Overfull \hbox (66.1814pt too wide) detected at line 394
+[]\OML/cmm/m/it/12.045 :
+ []
+
+
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
 
 Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
@@ -939,72 +992,73 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 
 
 
-[9]
+[14]
 File: ../../code/2/output/fig1_routes.png Graphic file (type bmp)
 <../../code/2/output/fig1_routes.png>
 
 
-[10]
+[15]
 File: ../../code/2/output/fig2_gantt.png Graphic file (type bmp)
 <../../code/2/output/fig2_gantt.png>
+
+
+[16]
 File: ../../code/2/output/fig3_delivery.png Graphic file (type bmp)
 <../../code/2/output/fig3_delivery.png>
-
-
-[11]
 File: ../../code/2/output/fig4_battery.png Graphic file (type bmp)
 <../../code/2/output/fig4_battery.png>
 
 
-[12]
+[17]
 File: ../../code/2/output/fig5_alns.png Graphic file (type bmp)
 <../../code/2/output/fig5_alns.png>
 
-Overfull \hbox (22.71022pt too wide) detected at line 969
+
+[18]
+Overfull \hbox (22.71022pt too wide) detected at line 1227
 []\OML/cmm/m/it/12.045 :
  []
 
 
 
-[13]
-
-[14]
-
-[15]
-
-[16]
-
-[17]
-
-[18]
-
 [19]
-File: ../../code/3/output/fig_q3_1_routes_relay.png Graphic file (type bmp)
-<../../code/3/output/fig_q3_1_routes_relay.png>
-
 
 [20]
-File: ../../code/3/output/fig_q3_2_joint_gantt.png Graphic file (type bmp)
-<../../code/3/output/fig_q3_2_joint_gantt.png>
-
 
 [21]
-File: ../../code/3/output/fig_q3_3_comm_timeline.png Graphic file (type bmp)
-<../../code/3/output/fig_q3_3_comm_timeline.png>
-
 
 [22]
 
 [23]
+
+[24]
+
+[25]
+File: ../../code/3/output/fig_q3_1_routes_relay.png Graphic file (type bmp)
+<../../code/3/output/fig_q3_1_routes_relay.png>
+
+
+[26]
+
+[27]
+File: ../../code/3/output/fig_q3_2_joint_gantt.png Graphic file (type bmp)
+<../../code/3/output/fig_q3_2_joint_gantt.png>
+File: ../../code/3/output/fig_q3_3_comm_timeline.png Graphic file (type bmp)
+<../../code/3/output/fig_q3_3_comm_timeline.png>
+
+
+[28]
+
+[29]
 File: ../../code/3/output/fig_q3_4_relay_energy.png Graphic file (type bmp)
 <../../code/3/output/fig_q3_4_relay_energy.png>
 File: ../../code/3/output/fig_q3_7_joint_alns.png Graphic file (type bmp)
 <../../code/3/output/fig_q3_7_joint_alns.png>
 
 
-[24]
+[30]
 
-[25]
+[31]
 File: ../../code/4/output/figures/fig_q4_01_solution_flow.pdf Graphic file (typ
 e pdf)
 <use ../../code/4/output/figures/fig_q4_01_solution_flow.pdf>
@@ -1013,27 +1067,27 @@ le (type pdf)
 <use ../../code/4/output/figures/fig_q4_07_unit_relay_bipartite.pdf>
 
 
-[26]
+[32]
 
-[27]
+[33]
 
-[28]
+[34]
 
-[29]
+[35]
 File: ../../code/4/output/figures/fig_q4_59_K2_geo_routes_relays.pdf Graphic fi
 le (type pdf)
 <use ../../code/4/output/figures/fig_q4_59_K2_geo_routes_relays.pdf>
 
 
-[30]
+[36]
 
-[31]
+[37]
 File: ../../code/4/output/figures/fig_q4_60_K3_geo_routes_relays.pdf Graphic fi
 le (type pdf)
 <use ../../code/4/output/figures/fig_q4_60_K3_geo_routes_relays.pdf>
 
 
-[32]
+[38]
 File: ../../code/4/output/figures/fig_q4_26_K2_resource_vs_stock.pdf Graphic fi
 le (type pdf)
 <use ../../code/4/output/figures/fig_q4_26_K2_resource_vs_stock.pdf>
@@ -1042,7 +1096,7 @@ le (type pdf)
 <use ../../code/4/output/figures/fig_q4_27_K3_resource_vs_stock.pdf>
 
 
-[33]
+[39]
 File: ../../code/4/output/figures/fig_q4_18_K2_copy_balance_scatter.pdf Graphic
  file (type pdf)
 <use ../../code/4/output/figures/fig_q4_18_K2_copy_balance_scatter.pdf>
@@ -1051,20 +1105,20 @@ File: ../../code/4/output/figures/fig_q4_19_K3_copy_balance_scatter.pdf Graphic
 <use ../../code/4/output/figures/fig_q4_19_K3_copy_balance_scatter.pdf>
 
 
-[34]
+[40]
 
-[35]
+[41]
 
-LaTeX Warning: Citation `web-placeholder' on page 36 undefined on input line 23
-35.
+LaTeX Warning: Citation `web-placeholder' on page 42 undefined on input line 25
+93.
 
 ) (./sections/references.tex
 
-[36]) (./sections/appendix.tex
+[42]) (./sections/appendix.tex
 
-[37])
+[43])
 
-[38] (./main.aux)
+[44] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -1074,15 +1128,15 @@ L3 programming layer <2022/07/14>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F97735EDCD280B43254A1953CAC4E3F2;11797.
+(rerunfilecheck)             Checksum: 3DEBBE57E97AA0F7DC0F4E9639921464;12612.
  ) 
 Here is how much of TeX's memory you used:
- 18938 strings out of 473832
- 424916 string characters out of 5720305
- 820848 words of memory out of 5000000
- 41670 multiletter control sequences out of 15000+600000
+ 18990 strings out of 473832
+ 426459 string characters out of 5720305
+ 829825 words of memory out of 5000000
+ 41722 multiletter control sequences out of 15000+600000
  571771 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,12n,100p,1204b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,13n,100p,1204b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (39 pages).
+Output written on main.pdf (45 pages).

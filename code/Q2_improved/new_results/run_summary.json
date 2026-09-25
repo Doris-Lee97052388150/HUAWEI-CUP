@@ -1,0 +1,340 @@
+{
+  "algorithm": "Multi-start ALNS + finite-route time-index MILP + continuous left shift",
+  "input_sha256": {
+    "nodes": {
+      "name": "调度中心与服务区(20260924-135018).xlsx",
+      "sha256": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38"
+    },
+    "boxes": {
+      "name": "物资需求与配送时限(20260924-135020).xlsx",
+      "sha256": "5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a"
+    },
+    "drones": {
+      "name": "运输无人机数据(20260924-135019).xlsx",
+      "sha256": "9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb"
+    },
+    "dem": {
+      "name": "镇龙乡及周边30米DEM(8).tif",
+      "sha256": "741fe6de0b2bcaffd0f4007f574ee698d46197094f52cc954b532c4f90fc7c03"
+    }
+  },
+  "scales": {
+    "lateness": 139.37448534880502,
+    "makespan": 13014.678366454586,
+    "energy": 82.89282474705489,
+    "trips": 25
+  },
+  "weights": {
+    "balanced": {
+      "lateness": 0.45,
+      "makespan": 0.25,
+      "energy": 0.2,
+      "trips": 0.1
+    },
+    "time": {
+      "lateness": 0.45,
+      "makespan": 0.4,
+      "energy": 0.1,
+      "trips": 0.05
+    },
+    "energy": {
+      "lateness": 0.45,
+      "makespan": 0.1,
+      "energy": 0.4,
+      "trips": 0.05
+    },
+    "trips": {
+      "lateness": 0.45,
+      "makespan": 0.1,
+      "energy": 0.1,
+      "trips": 0.35
+    }
+  },
+  "iterations_per_seed_profile": 500,
+  "seeds": [
+    20260924,
+    20260925
+  ],
+  "pool_limit_requested": 240,
+  "pool_size_actual": 240,
+  "time_grid_seconds": 60.0,
+  "horizon_seconds": 18240.0,
+  "seed_runs": [
+    {
+      "profile": "balanced",
+      "seed": 20260924,
+      "weighted_lateness": 9.06629535849528,
+      "makespan": 9345.77394280944,
+      "energy": 62.472754656419085,
+      "trips": 19,
+      "hard_violations": 0,
+      "elapsed_seconds": 9.631169000000227
+    },
+    {
+      "profile": "balanced",
+      "seed": 20260925,
+      "weighted_lateness": 0.0,
+      "makespan": 8909.391125116485,
+      "energy": 61.896886714817576,
+      "trips": 20,
+      "hard_violations": 0,
+      "elapsed_seconds": 9.857431699987501
+    },
+    {
+      "profile": "time",
+      "seed": 20260924,
+      "weighted_lateness": 6.636877109159241,
+      "makespan": 9583.295935254435,
+      "energy": 63.54373601470933,
+      "trips": 20,
+      "hard_violations": 0,
+      "elapsed_seconds": 9.326240499998676
+    },
+    {
+      "profile": "time",
+      "seed": 20260925,
+      "weighted_lateness": 5.455022046659254,
+      "makespan": 9299.650720254438,
+      "energy": 64.46380237800712,
+      "trips": 20,
+      "hard_violations": 0,
+      "elapsed_seconds": 9.925735900003929
+    },
+    {
+      "profile": "energy",
+      "seed": 20260924,
+      "weighted_lateness": 8.988906360086833,
+      "makespan": 9327.200583191414,
+      "energy": 62.472754656419085,
+      "trips": 19,
+      "hard_violations": 0,
+      "elapsed_seconds": 10.066908599983435
+    },
+    {
+      "profile": "energy",
+      "seed": 20260925,
+      "weighted_lateness": 6.152628721860757,
+      "makespan": 9467.076322302799,
+      "energy": 62.15804698208573,
+      "trips": 20,
+      "hard_violations": 0,
+      "elapsed_seconds": 10.031658100022469
+    },
+    {
+      "profile": "trips",
+      "seed": 20260924,
+      "weighted_lateness": 6.2623074274460855,
+      "makespan": 8738.111882537774,
+      "energy": 61.59496679531685,
+      "trips": 19,
+      "hard_violations": 0,
+      "elapsed_seconds": 9.450189199997112
+    },
+    {
+      "profile": "trips",
+      "seed": 20260925,
+      "weighted_lateness": 12.06997708679116,
+      "makespan": 9967.691720667948,
+      "energy": 60.663635420753316,
+      "trips": 17,
+      "hard_violations": 0,
+      "elapsed_seconds": 9.819182000006549
+    }
+  ],
+  "comparison": [
+    {
+      "profile": "balanced",
+      "source": "balanced:MILP_fixed_routes_compacted",
+      "weighted_lateness": 0.0,
+      "makespan": 8248.920507531224,
+      "energy": 61.896886714817576,
+      "trips": 20,
+      "hard_violations": 0,
+      "on_time_boxes": 80,
+      "multi_stop_trips": 2,
+      "objective": 0.38779614039474536,
+      "nondominated_in_reported_set": true
+    },
+    {
+      "profile": "time",
+      "source": "balanced:MILP_fixed_routes_compacted",
+      "weighted_lateness": 0.0,
+      "makespan": 8248.920507531224,
+      "energy": 61.896886714817576,
+      "trips": 20,
+      "hard_violations": 0,
+      "on_time_boxes": 80,
+      "multi_stop_trips": 2,
+      "objective": 0.3681976629877745,
+      "nondominated_in_reported_set": true
+    },
+    {
+      "profile": "energy",
+      "source": "balanced:MILP_fixed_routes_compacted",
+      "weighted_lateness": 0.0,
+      "makespan": 8248.920507531224,
+      "energy": 61.896886714817576,
+      "trips": 20,
+      "hard_violations": 0,
+      "on_time_boxes": 80,
+      "multi_stop_trips": 2,
+      "objective": 0.402065600367088,
+      "nondominated_in_reported_set": true
+    },
+    {
+      "profile": "trips",
+      "source": "trips:MILP_fixed_routes_compacted",
+      "weighted_lateness": 7.204650699184071,
+      "makespan": 9313.158160864692,
+      "energy": 60.663635420753316,
+      "trips": 17,
+      "hard_violations": 0,
+      "on_time_boxes": 75,
+      "multi_stop_trips": 5,
+      "objective": 0.40600383556761144,
+      "nondominated_in_reported_set": true
+    }
+  ],
+  "milp_certificates": [
+    {
+      "label": "balanced_fixed_routes",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "route_count": 20,
+      "column_count": 3745,
+      "time_step_seconds": 60.0,
+      "horizon_seconds": 18240.0,
+      "objective": 0.3887782067225739,
+      "restricted_dual_bound": 0.3887782067225739,
+      "restricted_gap": 0.0,
+      "elapsed_seconds": 3.1631509000144433,
+      "global_optimality_proven": false,
+      "bound_scope": "Only this finite route pool, start grid and time horizon; NOT a lower bound for the unrestricted original problem.",
+      "recomputed_objective": 0.38877820672257396
+    },
+    {
+      "label": "balanced_route_pool",
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "route_count": 240,
+      "column_count": 73006,
+      "time_step_seconds": 60.0,
+      "horizon_seconds": 18240.0,
+      "objective": null,
+      "restricted_dual_bound": null,
+      "restricted_gap": null,
+      "elapsed_seconds": 96.94985529998667,
+      "global_optimality_proven": false,
+      "bound_scope": "Only this finite route pool, start grid and time horizon; NOT a lower bound for the unrestricted original problem."
+    },
+    {
+      "label": "time_fixed_routes",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "route_count": 20,
+      "column_count": 4042,
+      "time_step_seconds": 60.0,
+      "horizon_seconds": 18240.0,
+      "objective": 0.39305821911333455,
+      "restricted_dual_bound": 0.39305821911333455,
+      "restricted_gap": 0.0,
+      "elapsed_seconds": 21.24991049998789,
+      "global_optimality_proven": false,
+      "bound_scope": "Only this finite route pool, start grid and time horizon; NOT a lower bound for the unrestricted original problem.",
+      "recomputed_objective": 0.3930582191133371
+    },
+    {
+      "label": "time_route_pool",
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "route_count": 240,
+      "column_count": 73006,
+      "time_step_seconds": 60.0,
+      "horizon_seconds": 18240.0,
+      "objective": null,
+      "restricted_dual_bound": null,
+      "restricted_gap": null,
+      "elapsed_seconds": 72.01857700000983,
+      "global_optimality_proven": false,
+      "bound_scope": "Only this finite route pool, start grid and time horizon; NOT a lower bound for the unrestricted original problem."
+    },
+    {
+      "label": "energy_fixed_routes",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "route_count": 20,
+      "column_count": 3130,
+      "time_step_seconds": 60.0,
+      "horizon_seconds": 18240.0,
+      "objective": 0.40467566869390686,
+      "restricted_dual_bound": 0.40467566869390686,
+      "restricted_gap": 0.0,
+      "elapsed_seconds": 16.872484799998347,
+      "global_optimality_proven": false,
+      "bound_scope": "Only this finite route pool, start grid and time horizon; NOT a lower bound for the unrestricted original problem.",
+      "recomputed_objective": 0.4046756686939068
+    },
+    {
+      "label": "energy_route_pool",
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "route_count": 240,
+      "column_count": 73006,
+      "time_step_seconds": 60.0,
+      "horizon_seconds": 18240.0,
+      "objective": null,
+      "restricted_dual_bound": null,
+      "restricted_gap": null,
+      "elapsed_seconds": 71.88853139997809,
+      "global_optimality_proven": false,
+      "bound_scope": "Only this finite route pool, start grid and time horizon; NOT a lower bound for the unrestricted original problem."
+    },
+    {
+      "label": "trips_fixed_routes",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "route_count": 17,
+      "column_count": 2729,
+      "time_step_seconds": 60.0,
+      "horizon_seconds": 18240.0,
+      "objective": 0.40708528577197794,
+      "restricted_dual_bound": 0.4070852857719779,
+      "restricted_gap": 0.0,
+      "elapsed_seconds": 9.063611500023399,
+      "global_optimality_proven": false,
+      "bound_scope": "Only this finite route pool, start grid and time horizon; NOT a lower bound for the unrestricted original problem.",
+      "recomputed_objective": 0.4070852857719779
+    },
+    {
+      "label": "trips_route_pool",
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "route_count": 240,
+      "column_count": 73006,
+      "time_step_seconds": 60.0,
+      "horizon_seconds": 18240.0,
+      "objective": null,
+      "restricted_dual_bound": null,
+      "restricted_gap": null,
+      "elapsed_seconds": 57.045943799981615,
+      "global_optimality_proven": false,
+      "bound_scope": "Only this finite route pool, start grid and time horizon; NOT a lower bound for the unrestricted original problem."
+    }
+  ],
+  "initial_metrics": {
+    "weighted_lateness": 139.37448534880502,
+    "makespan": 13014.678366454586,
+    "energy": 82.89282474705489,
+    "trips": 25,
+    "hard_violations": 0
+  },
+  "global_optimality_proven": false,
+  "runtime_seconds": 428.77709270000923,
+  "assumptions": [
+    "Drone and full battery reserved from preparation start to return; battery then charges to full.",
+    "Different batteries charge in parallel; no finite charger constraint supplied.",
+    "All boxes at one stop complete delivery at the end of that stop handover (conservative).",
+    "Energy follows Appendix 2; no separate hover/descent energy is added.",
+    "Start-grid, horizon and finite pool are computational restrictions, not requirements of the problem."
+  ]
+}

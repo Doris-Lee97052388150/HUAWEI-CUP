@@ -1,0 +1,2746 @@
+{
+  "routes": [
+    [
+      {
+        "service_id": "S001",
+        "box_ids": [
+          "S001-MED-01",
+          "S001-MED-02",
+          "S001-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S002",
+        "box_ids": [
+          "S002-MED-01",
+          "S002-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S003",
+        "box_ids": [
+          "S003-MED-01",
+          "S003-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S004",
+        "box_ids": [
+          "S004-MED-01",
+          "S004-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S005",
+        "box_ids": [
+          "S005-MED-01",
+          "S005-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S006",
+        "box_ids": [
+          "S006-MED-01",
+          "S006-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S007",
+        "box_ids": [
+          "S007-MED-01",
+          "S007-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S008",
+        "box_ids": [
+          "S008-MED-01",
+          "S008-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S009",
+        "box_ids": [
+          "S009-MED-01",
+          "S009-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S010",
+        "box_ids": [
+          "S010-MED-01",
+          "S010-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S011",
+        "box_ids": [
+          "S011-MED-01",
+          "S011-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S012",
+        "box_ids": [
+          "S012-MED-01",
+          "S012-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S013",
+        "box_ids": [
+          "S013-MED-01",
+          "S013-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S014",
+        "box_ids": [
+          "S014-MED-01",
+          "S014-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S015",
+        "box_ids": [
+          "S015-MED-01",
+          "S015-WAT-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S001",
+        "box_ids": [
+          "S001-WAT-02",
+          "S001-WAT-03",
+          "S001-WAT-04",
+          "S001-WAT-05",
+          "S001-WAT-06"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S001",
+        "box_ids": [
+          "S001-FOD-01",
+          "S001-FOD-02",
+          "S001-FOD-03",
+          "S001-HYG-01",
+          "S001-HYG-02",
+          "S001-WAT-07",
+          "S001-WAT-08"
+        ]
+      },
+      {
+        "service_id": "S013",
+        "box_ids": [
+          "S013-FOD-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S002",
+        "box_ids": [
+          "S002-FOD-01",
+          "S002-FOD-02",
+          "S002-HYG-01",
+          "S002-WAT-02",
+          "S002-WAT-03",
+          "S002-WAT-04"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S003",
+        "box_ids": [
+          "S003-FOD-01",
+          "S003-FOD-02",
+          "S003-HYG-01",
+          "S003-WAT-02",
+          "S003-WAT-03",
+          "S003-WAT-04"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S004",
+        "box_ids": [
+          "S004-FOD-01",
+          "S004-HYG-01",
+          "S004-WAT-02",
+          "S004-WAT-03"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S011",
+        "box_ids": [
+          "S011-FOD-01"
+        ]
+      },
+      {
+        "service_id": "S005",
+        "box_ids": [
+          "S005-FOD-01",
+          "S005-HYG-01",
+          "S005-WAT-02",
+          "S005-WAT-03"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S006",
+        "box_ids": [
+          "S006-FOD-01",
+          "S006-HYG-01",
+          "S006-WAT-02",
+          "S006-WAT-03"
+        ]
+      },
+      {
+        "service_id": "S007",
+        "box_ids": [
+          "S007-FOD-01",
+          "S007-HYG-01",
+          "S007-WAT-02"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S008",
+        "box_ids": [
+          "S008-FOD-01",
+          "S008-HYG-01",
+          "S008-WAT-02"
+        ]
+      },
+      {
+        "service_id": "S015",
+        "box_ids": [
+          "S015-FOD-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S009",
+        "box_ids": [
+          "S009-FOD-01"
+        ]
+      },
+      {
+        "service_id": "S012",
+        "box_ids": [
+          "S012-FOD-01"
+        ]
+      }
+    ],
+    [
+      {
+        "service_id": "S010",
+        "box_ids": [
+          "S010-FOD-01"
+        ]
+      },
+      {
+        "service_id": "S014",
+        "box_ids": [
+          "S014-FOD-01"
+        ]
+      }
+    ]
+  ],
+  "release": [
+    0.0,
+    0.0,
+    5790.887334468303,
+    5385.017496500652,
+    0.0,
+    0.0,
+    0.0,
+    5831.670390920699,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    14778.223271115605,
+    0.0,
+    0.0,
+    6977.395309042311,
+    0.0,
+    12793.313896797863,
+    11096.93818346325
+  ],
+  "transport_trips": [
+    {
+      "route_index": 11,
+      "drone_id": "U02",
+      "drone_type": "A",
+      "battery_id": "BAT-A02",
+      "start_time": 0.0,
+      "takeoff_time": 360.0,
+      "return_time": 2110.4163860283807,
+      "energy_kwh": 2.9610660016353805,
+      "end_soc": 0.3419853329699154,
+      "charge_end_time": 3465.8354531674904,
+      "service_sequence": [
+        "S012"
+      ],
+      "box_delivery": {
+        "S012-MED-01": 1335.1381930141902,
+        "S012-WAT-01": 1335.1381930141902
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "A",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 2110.4163860283807,
+        "total_energy": 2.9610660016353805,
+        "end_soc": 0.3419853329699154,
+        "latest_start": 2264.86180698581,
+        "soft_due_start": 2264.86180698581,
+        "stops": [
+          {
+            "service_id": "S012",
+            "box_ids": [
+              "S012-MED-01",
+              "S012-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 1125.1381930141902,
+            "service_duration": 210.0,
+            "delivery_offset": 1335.1381930141902
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S012",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 7398.4495612874725,
+            "climb_m": 285.6009948730469,
+            "descent_m": 133.50099487304686,
+            "flight_time": 765.1381930141903,
+            "energy_kwh": 1.5939765878646996
+          },
+          {
+            "from_node": "S012",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 7398.4495612874725,
+            "climb_m": 133.50099487304686,
+            "descent_m": 285.6009948730469,
+            "flight_time": 775.2781930141904,
+            "energy_kwh": 1.3670894137706808
+          }
+        ],
+        "box_delivery_offsets": {
+          "S012-MED-01": 1335.1381930141902,
+          "S012-WAT-01": 1335.1381930141902
+        }
+      },
+      "trip_id": "Q3T001"
+    },
+    {
+      "route_index": 13,
+      "drone_id": "U03",
+      "drone_type": "A",
+      "battery_id": "BAT-A03",
+      "start_time": 0.0,
+      "takeoff_time": 360.0,
+      "return_time": 1988.9623510146887,
+      "energy_kwh": 2.28765346178038,
+      "end_soc": 0.4916325640488045,
+      "charge_end_time": 3149.840017751243,
+      "service_sequence": [
+        "S014"
+      ],
+      "box_delivery": {
+        "S014-MED-01": 1272.037842174011,
+        "S014-WAT-01": 1272.037842174011
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "A",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1988.9623510146887,
+        "total_energy": 2.28765346178038,
+        "end_soc": 0.4916325640488045,
+        "latest_start": 2327.962157825989,
+        "soft_due_start": 2327.962157825989,
+        "stops": [
+          {
+            "service_id": "S014",
+            "box_ids": [
+              "S014-MED-01",
+              "S014-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 1062.037842174011,
+            "service_duration": 210.0,
+            "delivery_offset": 1272.037842174011
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S014",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 5410.917094369381,
+            "climb_m": 464.2473876953125,
+            "descent_m": 240.9473876953125,
+            "flight_time": 702.037842174011,
+            "energy_kwh": 1.2498540595121124
+          },
+          {
+            "from_node": "S014",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 5410.917094369381,
+            "climb_m": 240.9473876953125,
+            "descent_m": 464.2473876953125,
+            "flight_time": 716.9245088406776,
+            "energy_kwh": 1.0377994022682675
+          }
+        ],
+        "box_delivery_offsets": {
+          "S014-MED-01": 1272.037842174011,
+          "S014-WAT-01": 1272.037842174011
+        }
+      },
+      "trip_id": "Q3T002"
+    },
+    {
+      "route_index": 6,
+      "drone_id": "U04",
+      "drone_type": "A",
+      "battery_id": "BAT-A04",
+      "start_time": 0.0,
+      "takeoff_time": 360.0,
+      "return_time": 1727.3186397361987,
+      "energy_kwh": 1.9051008629062727,
+      "end_soc": 0.576644252687495,
+      "charge_end_time": 2777.6811112424552,
+      "service_sequence": [
+        "S007"
+      ],
+      "box_delivery": {
+        "S007-MED-01": 1141.2993198680992,
+        "S007-WAT-01": 1141.2993198680992
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "A",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1727.3186397361987,
+        "total_energy": 1.9051008629062727,
+        "end_soc": 0.576644252687495,
+        "latest_start": 2458.7006801319008,
+        "soft_due_start": 2458.7006801319008,
+        "stops": [
+          {
+            "service_id": "S007",
+            "box_ids": [
+              "S007-MED-01",
+              "S007-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 931.2993198680994,
+            "service_duration": 210.0,
+            "delivery_offset": 1141.2993198680992
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S007",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 4533.827897987505,
+            "climb_m": 384.27317504882814,
+            "descent_m": 163.47317504882812,
+            "flight_time": 571.2993198680994,
+            "energy_kwh": 1.045702802184405
+          },
+          {
+            "from_node": "S007",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 4533.827897987505,
+            "climb_m": 163.47317504882812,
+            "descent_m": 384.27317504882814,
+            "flight_time": 586.0193198680994,
+            "energy_kwh": 0.8593980607218675
+          }
+        ],
+        "box_delivery_offsets": {
+          "S007-MED-01": 1141.2993198680992,
+          "S007-WAT-01": 1141.2993198680992
+        }
+      },
+      "trip_id": "Q3T003"
+    },
+    {
+      "route_index": 1,
+      "drone_id": "U07",
+      "drone_type": "C",
+      "battery_id": "BAT-C01",
+      "start_time": 0.0,
+      "takeoff_time": 360.0,
+      "return_time": 1847.0081265825715,
+      "energy_kwh": 4.786226039007479,
+      "end_soc": 0.4017217451240651,
+      "charge_end_time": 3976.611012147097,
+      "service_sequence": [
+        "S002"
+      ],
+      "box_delivery": {
+        "S002-MED-01": 1224.9140632912859,
+        "S002-WAT-01": 1224.9140632912859
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1847.0081265825715,
+        "total_energy": 4.786226039007479,
+        "end_soc": 0.4017217451240651,
+        "latest_start": 2375.085936708714,
+        "soft_due_start": 2375.085936708714,
+        "stops": [
+          {
+            "service_id": "S002",
+            "box_ids": [
+              "S002-MED-01",
+              "S002-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 972.9140632912859,
+            "service_duration": 252.0,
+            "delivery_offset": 1224.9140632912859
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S002",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 7435.278518339014,
+            "climb_m": 181.25425415039064,
+            "descent_m": 89.45425415039062,
+            "flight_time": 612.9140632912859,
+            "energy_kwh": 2.4747827240661904
+          },
+          {
+            "from_node": "S002",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 7435.278518339014,
+            "climb_m": 89.45425415039062,
+            "descent_m": 181.25425415039064,
+            "flight_time": 622.0940632912858,
+            "energy_kwh": 2.311443314941289
+          }
+        ],
+        "box_delivery_offsets": {
+          "S002-MED-01": 1224.9140632912859,
+          "S002-WAT-01": 1224.9140632912859
+        }
+      },
+      "trip_id": "Q3T004"
+    },
+    {
+      "route_index": 9,
+      "drone_id": "U08",
+      "drone_type": "C",
+      "battery_id": "BAT-C02",
+      "start_time": 0.0,
+      "takeoff_time": 360.0,
+      "return_time": 1601.9010843762837,
+      "energy_kwh": 3.1459593238330985,
+      "end_soc": 0.6067550845208627,
+      "charge_end_time": 3287.2650679144144,
+      "service_sequence": [
+        "S010"
+      ],
+      "box_delivery": {
+        "S010-MED-01": 1095.7555421881418,
+        "S010-WAT-01": 1095.7555421881418
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1601.9010843762837,
+        "total_energy": 3.1459593238330985,
+        "end_soc": 0.6067550845208627,
+        "latest_start": 2504.2444578118584,
+        "soft_due_start": 2504.2444578118584,
+        "stops": [
+          {
+            "service_id": "S010",
+            "box_ids": [
+              "S010-MED-01",
+              "S010-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 843.7555421881418,
+            "service_duration": 252.0,
+            "delivery_offset": 1095.7555421881418
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S010",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 4778.439901620956,
+            "climb_m": 307.93653564453126,
+            "descent_m": 84.03653564453123,
+            "flight_time": 483.7555421881419,
+            "energy_kwh": 1.653438082753466
+          },
+          {
+            "from_node": "S010",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 4778.439901620956,
+            "climb_m": 84.03653564453123,
+            "descent_m": 307.93653564453126,
+            "flight_time": 506.1455421881419,
+            "energy_kwh": 1.4925212410796325
+          }
+        ],
+        "box_delivery_offsets": {
+          "S010-MED-01": 1095.7555421881418,
+          "S010-WAT-01": 1095.7555421881418
+        }
+      },
+      "trip_id": "Q3T005"
+    },
+    {
+      "route_index": 12,
+      "drone_id": "U08",
+      "drone_type": "C",
+      "battery_id": "BAT-C03",
+      "start_time": 1601.9010843762837,
+      "takeoff_time": 1961.9010843762837,
+      "return_time": 3147.4626337457794,
+      "energy_kwh": 3.1687442277127476,
+      "end_soc": 0.6039069715359066,
+      "charge_end_time": 4838.997528751315,
+      "service_sequence": [
+        "S013"
+      ],
+      "box_delivery": {
+        "S013-MED-01": 2669.481859061031,
+        "S013-WAT-01": 2669.481859061031
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1545.5615493694954,
+        "total_energy": 3.1687442277127476,
+        "end_soc": 0.6039069715359066,
+        "latest_start": 2532.4192253152523,
+        "soft_due_start": 2532.4192253152523,
+        "stops": [
+          {
+            "service_id": "S013",
+            "box_ids": [
+              "S013-MED-01",
+              "S013-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 815.5807746847477,
+            "service_duration": 252.0,
+            "delivery_offset": 1067.5807746847477
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S013",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 4848.706999909886,
+            "climb_m": 271.48182373046876,
+            "descent_m": 47.48182373046876,
+            "flight_time": 455.58077468474767,
+            "energy_kwh": 1.6642729661982671
+          },
+          {
+            "from_node": "S013",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 4848.706999909886,
+            "climb_m": 47.48182373046876,
+            "descent_m": 271.48182373046876,
+            "flight_time": 477.98077468474764,
+            "energy_kwh": 1.5044712615144802
+          }
+        ],
+        "box_delivery_offsets": {
+          "S013-MED-01": 1067.5807746847477,
+          "S013-WAT-01": 1067.5807746847477
+        }
+      },
+      "trip_id": "Q3T006"
+    },
+    {
+      "route_index": 0,
+      "drone_id": "U04",
+      "drone_type": "A",
+      "battery_id": "BAT-A05",
+      "start_time": 1727.3186397361987,
+      "takeoff_time": 2117.3186397361987,
+      "return_time": 3039.790222275233,
+      "energy_kwh": 1.2680249254028784,
+      "end_soc": 0.7182166832438048,
+      "charge_end_time": 3906.1085340582868,
+      "service_sequence": [
+        "S001"
+      ],
+      "box_delivery": {
+        "S001-MED-01": 2696.677764339049,
+        "S001-MED-02": 2696.677764339049,
+        "S001-WAT-01": 2696.677764339049
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "A",
+        "total_boxes": 3,
+        "total_mass": 20.0,
+        "total_volume": 0.051000000000000004,
+        "pre_operation_time": 390.0,
+        "takeoff_offset": 390.0,
+        "duration": 1312.4715825390344,
+        "total_energy": 1.2680249254028784,
+        "end_soc": 0.7182166832438048,
+        "latest_start": 2630.6408753971496,
+        "soft_due_start": 2630.6408753971496,
+        "stops": [
+          {
+            "service_id": "S001",
+            "box_ids": [
+              "S001-MED-01",
+              "S001-MED-02",
+              "S001-WAT-01"
+            ],
+            "delivery_mass": 20.0,
+            "delivery_volume": 0.051000000000000004,
+            "arrival_offset": 729.3591246028506,
+            "service_duration": 240.0,
+            "delivery_offset": 969.3591246028506
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S001",
+            "payload_mass": 20.0,
+            "payload_volume": 0.051000000000000004,
+            "distance_m": 3063.4113262888936,
+            "climb_m": 145.3566101074219,
+            "descent_m": 89.05661010742188,
+            "flight_time": 339.35912460285056,
+            "energy_kwh": 0.6930170694792238
+          },
+          {
+            "from_node": "S001",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 3063.4113262888936,
+            "climb_m": 89.05661010742188,
+            "descent_m": 145.3566101074219,
+            "flight_time": 343.11245793618383,
+            "energy_kwh": 0.5750078559236547
+          }
+        ],
+        "box_delivery_offsets": {
+          "S001-MED-01": 969.3591246028506,
+          "S001-MED-02": 969.3591246028506,
+          "S001-WAT-01": 969.3591246028506
+        }
+      },
+      "trip_id": "Q3T007"
+    },
+    {
+      "route_index": 5,
+      "drone_id": "U07",
+      "drone_type": "C",
+      "battery_id": "BAT-C04",
+      "start_time": 1847.0081265825715,
+      "takeoff_time": 2207.0081265825715,
+      "return_time": 3143.8720118565343,
+      "energy_kwh": 2.1040390440746366,
+      "end_soc": 0.7369951194906704,
+      "charge_end_time": 4547.0492529600815,
+      "service_sequence": [
+        "S006"
+      ],
+      "box_delivery": {
+        "S006-MED-01": 2792.085069219553,
+        "S006-WAT-01": 2792.085069219553
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1296.863885273963,
+        "total_energy": 2.1040390440746366,
+        "end_soc": 0.7369951194906704,
+        "latest_start": 2654.9230573630184,
+        "soft_due_start": 2654.9230573630184,
+        "stops": [
+          {
+            "service_id": "S006",
+            "box_ids": [
+              "S006-MED-01",
+              "S006-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 693.0769426369815,
+            "service_duration": 252.0,
+            "delivery_offset": 945.0769426369815
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S006",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 3181.0333082558936,
+            "climb_m": 238.39783935546876,
+            "descent_m": 51.29783935546874,
+            "flight_time": 333.07694263698147,
+            "energy_kwh": 1.111688614339297
+          },
+          {
+            "from_node": "S006",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 3181.0333082558936,
+            "climb_m": 51.29783935546874,
+            "descent_m": 238.39783935546876,
+            "flight_time": 351.78694263698145,
+            "energy_kwh": 0.9923504297353398
+          }
+        ],
+        "box_delivery_offsets": {
+          "S006-MED-01": 945.0769426369815,
+          "S006-WAT-01": 945.0769426369815
+        }
+      },
+      "trip_id": "Q3T008"
+    },
+    {
+      "route_index": 14,
+      "drone_id": "U03",
+      "drone_type": "A",
+      "battery_id": "BAT-A06",
+      "start_time": 1988.9623510146887,
+      "takeoff_time": 2348.9623510146885,
+      "return_time": 3959.1735836486414,
+      "energy_kwh": 2.475741686132445,
+      "end_soc": 0.44983518085945673,
+      "charge_end_time": 5174.387848531347,
+      "service_sequence": [
+        "S015"
+      ],
+      "box_delivery": {
+        "S015-MED-01": 3247.507967331665,
+        "S015-WAT-01": 3247.507967331665
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "A",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1970.211232633953,
+        "total_energy": 2.475741686132445,
+        "end_soc": 0.44983518085945673,
+        "latest_start": 5941.4543836830235,
+        "soft_due_start": 5941.4543836830235,
+        "stops": [
+          {
+            "service_id": "S015",
+            "box_ids": [
+              "S015-MED-01",
+              "S015-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 1048.5456163169765,
+            "service_duration": 210.0,
+            "delivery_offset": 1258.5456163169765
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S015",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 6019.113948538092,
+            "climb_m": 444.09925537109376,
+            "descent_m": 97.29925537109375,
+            "flight_time": 688.5456163169764,
+            "energy_kwh": 1.3665236296149825
+          },
+          {
+            "from_node": "S015",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 6019.113948538092,
+            "climb_m": 97.29925537109375,
+            "descent_m": 444.09925537109376,
+            "flight_time": 711.6656163169764,
+            "energy_kwh": 1.1092180565174623
+          }
+        ],
+        "box_delivery_offsets": {
+          "S015-MED-01": 1258.5456163169765,
+          "S015-WAT-01": 1258.5456163169765
+        }
+      },
+      "trip_id": "Q3T009"
+    },
+    {
+      "route_index": 4,
+      "drone_id": "U02",
+      "drone_type": "A",
+      "battery_id": "BAT-A04",
+      "start_time": 2777.6811112424552,
+      "takeoff_time": 3137.6811112424552,
+      "return_time": 4473.440436486253,
+      "energy_kwh": 2.1295216184597683,
+      "end_soc": 0.526772973675607,
+      "charge_end_time": 5588.635570707964,
+      "service_sequence": [
+        "S005"
+      ],
+      "box_delivery": {
+        "S005-MED-01": 3908.317440531021,
+        "S005-WAT-01": 3908.317440531021
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "A",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1695.7593252437982,
+        "total_energy": 2.1295216184597683,
+        "end_soc": 0.526772973675607,
+        "latest_start": 9669.363670711435,
+        "soft_due_start": 9669.363670711435,
+        "stops": [
+          {
+            "service_id": "S005",
+            "box_ids": [
+              "S005-MED-01",
+              "S005-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 920.6363292885657,
+            "service_duration": 210.0,
+            "delivery_offset": 1130.6363292885658
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S005",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 5302.020131150288,
+            "climb_m": 198.710888671875,
+            "descent_m": 131.410888671875,
+            "flight_time": 560.6363292885657,
+            "energy_kwh": 1.1403432351108274
+          },
+          {
+            "from_node": "S005",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 5302.020131150288,
+            "climb_m": 131.410888671875,
+            "descent_m": 198.710888671875,
+            "flight_time": 565.1229959552323,
+            "energy_kwh": 0.9891783833489409
+          }
+        ],
+        "box_delivery_offsets": {
+          "S005-MED-01": 1130.6363292885658,
+          "S005-WAT-01": 1130.6363292885658
+        }
+      },
+      "trip_id": "Q3T010"
+    },
+    {
+      "route_index": 8,
+      "drone_id": "U04",
+      "drone_type": "A",
+      "battery_id": "BAT-A03",
+      "start_time": 3149.840017751243,
+      "takeoff_time": 3509.840017751243,
+      "return_time": 4841.375821405509,
+      "energy_kwh": 2.261534351112808,
+      "end_soc": 0.4974368108638205,
+      "charge_end_time": 5994.707967282542,
+      "service_sequence": [
+        "S009"
+      ],
+      "box_delivery": {
+        "S009-MED-01": 4277.197919578376,
+        "S009-WAT-01": 4277.197919578376
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "A",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1691.5358036542661,
+        "total_energy": 2.261534351112808,
+        "end_soc": 0.4974368108638205,
+        "latest_start": 9672.642098172866,
+        "soft_due_start": 9672.642098172866,
+        "stops": [
+          {
+            "service_id": "S009",
+            "box_ids": [
+              "S009-MED-01",
+              "S009-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 917.357901827133,
+            "service_duration": 210.0,
+            "delivery_offset": 1127.357901827133
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S009",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 5722.680393214659,
+            "climb_m": 165.52891235351564,
+            "descent_m": 63.228912353515625,
+            "flight_time": 557.357901827133,
+            "energy_kwh": 1.214700609457179
+          },
+          {
+            "from_node": "S009",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 5722.680393214659,
+            "climb_m": 63.228912353515625,
+            "descent_m": 165.52891235351564,
+            "flight_time": 564.177901827133,
+            "energy_kwh": 1.0468337416556288
+          }
+        ],
+        "box_delivery_offsets": {
+          "S009-MED-01": 1127.357901827133,
+          "S009-WAT-01": 1127.357901827133
+        }
+      },
+      "trip_id": "Q3T011"
+    },
+    {
+      "route_index": 10,
+      "drone_id": "U07",
+      "drone_type": "C",
+      "battery_id": "BAT-C02",
+      "start_time": 3287.2650679144144,
+      "takeoff_time": 3647.2650679144144,
+      "return_time": 4500.716457602593,
+      "energy_kwh": 1.8590689512746326,
+      "end_soc": 0.7676163810906709,
+      "charge_end_time": 5837.54763190614,
+      "service_sequence": [
+        "S011"
+      ],
+      "box_delivery": {
+        "S011-MED-01": 4195.770762758504,
+        "S011-WAT-01": 4195.770762758504
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1213.4513896881792,
+        "total_energy": 1.8590689512746326,
+        "end_soc": 0.7676163810906709,
+        "latest_start": 9891.494305155911,
+        "soft_due_start": 9891.494305155911,
+        "stops": [
+          {
+            "service_id": "S011",
+            "box_ids": [
+              "S011-MED-01",
+              "S011-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 656.5056948440896,
+            "service_duration": 252.0,
+            "delivery_offset": 908.5056948440896
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S011",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 2817.1517251515784,
+            "climb_m": 167.66175537109376,
+            "descent_m": 83.26175537109376,
+            "flight_time": 296.5056948440896,
+            "energy_kwh": 0.9702259649979644
+          },
+          {
+            "from_node": "S011",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 2817.1517251515784,
+            "climb_m": 83.26175537109376,
+            "descent_m": 167.66175537109376,
+            "flight_time": 304.94569484408964,
+            "energy_kwh": 0.8888429862766681
+          }
+        ],
+        "box_delivery_offsets": {
+          "S011-MED-01": 908.5056948440896,
+          "S011-WAT-01": 908.5056948440896
+        }
+      },
+      "trip_id": "Q3T012"
+    },
+    {
+      "route_index": 3,
+      "drone_id": "U01",
+      "drone_type": "A",
+      "battery_id": "BAT-A01",
+      "start_time": 5385.017496500652,
+      "takeoff_time": 5745.017496500652,
+      "return_time": 7568.978680598613,
+      "energy_kwh": 3.098651243059546,
+      "end_soc": 0.31141083487565646,
+      "charge_end_time": 8964.144595260259,
+      "service_sequence": [
+        "S004"
+      ],
+      "box_delivery": {
+        "S004-MED-01": 6758.644755216299,
+        "S004-WAT-01": 6758.644755216299
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "A",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 2183.961184097961,
+        "total_energy": 3.098651243059546,
+        "end_soc": 0.31141083487565646,
+        "latest_start": 5826.372741284353,
+        "soft_due_start": 5826.372741284353,
+        "stops": [
+          {
+            "service_id": "S004",
+            "box_ids": [
+              "S004-MED-01",
+              "S004-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 1163.6272587156473,
+            "service_duration": 210.0,
+            "delivery_offset": 1373.6272587156473
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S004",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 7745.662441501828,
+            "climb_m": 270.53916625976564,
+            "descent_m": 169.9391662597656,
+            "flight_time": 803.6272587156471,
+            "energy_kwh": 1.6594099258613697
+          },
+          {
+            "from_node": "S004",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 7745.662441501828,
+            "climb_m": 169.9391662597656,
+            "descent_m": 270.53916625976564,
+            "flight_time": 810.3339253823139,
+            "energy_kwh": 1.4392413171981766
+          }
+        ],
+        "box_delivery_offsets": {
+          "S004-MED-01": 1373.6272587156473,
+          "S004-WAT-01": 1373.6272587156473
+        }
+      },
+      "trip_id": "Q3T013"
+    },
+    {
+      "route_index": 2,
+      "drone_id": "U05",
+      "drone_type": "B",
+      "battery_id": "BAT-B01",
+      "start_time": 5790.887334468303,
+      "takeoff_time": 6150.887334468303,
+      "return_time": 7811.130146519538,
+      "energy_kwh": 2.4963091216292184,
+      "end_soc": 0.3759227195926954,
+      "charge_end_time": 9559.5307658922,
+      "service_sequence": [
+        "S003"
+      ],
+      "box_delivery": {
+        "S003-MED-01": 7078.982073827254,
+        "S003-WAT-01": 7078.982073827254
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "B",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 2020.2428120512352,
+        "total_energy": 2.4963091216292184,
+        "end_soc": 0.3759227195926954,
+        "latest_start": 5911.90526064105,
+        "soft_due_start": 5911.90526064105,
+        "stops": [
+          {
+            "service_id": "S003",
+            "box_ids": [
+              "S003-MED-01",
+              "S003-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 1078.0947393589508,
+            "service_duration": 210.0,
+            "delivery_offset": 1288.0947393589508
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S003",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 7261.075570364734,
+            "climb_m": 434.10413818359376,
+            "descent_m": 223.30413818359375,
+            "flight_time": 718.094739358951,
+            "energy_kwh": 1.4040782428607677
+          },
+          {
+            "from_node": "S003",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 7261.075570364734,
+            "climb_m": 223.30413818359375,
+            "descent_m": 434.10413818359376,
+            "flight_time": 732.1480726922844,
+            "energy_kwh": 1.0922308787684507
+          }
+        ],
+        "box_delivery_offsets": {
+          "S003-MED-01": 1288.0947393589508,
+          "S003-WAT-01": 1288.0947393589508
+        }
+      },
+      "trip_id": "Q3T014"
+    },
+    {
+      "route_index": 7,
+      "drone_id": "U06",
+      "drone_type": "B",
+      "battery_id": "BAT-B02",
+      "start_time": 5831.670390920699,
+      "takeoff_time": 6191.670390920699,
+      "return_time": 7737.56050291503,
+      "energy_kwh": 2.67736027084853,
+      "end_soc": 0.3306599322878675,
+      "charge_end_time": 9564.416620282727,
+      "service_sequence": [
+        "S008"
+      ],
+      "box_delivery": {
+        "S008-MED-01": 7064.842113584531,
+        "S008-WAT-01": 7064.842113584531
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "B",
+        "total_boxes": 2,
+        "total_mass": 17.0,
+        "total_volume": 0.039,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 1905.8901119943312,
+        "total_energy": 2.67736027084853,
+        "end_soc": 0.3306599322878675,
+        "latest_start": 5966.828277336168,
+        "soft_due_start": 5966.828277336168,
+        "stops": [
+          {
+            "service_id": "S008",
+            "box_ids": [
+              "S008-MED-01",
+              "S008-WAT-01"
+            ],
+            "delivery_mass": 17.0,
+            "delivery_volume": 0.039,
+            "arrival_offset": 1023.1717226638323,
+            "service_duration": 210.0,
+            "delivery_offset": 1233.1717226638323
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S008",
+            "payload_mass": 17.0,
+            "payload_volume": 0.039,
+            "distance_m": 8109.473184928188,
+            "climb_m": 245.20933227539064,
+            "descent_m": 102.00933227539065,
+            "flight_time": 663.1717226638323,
+            "energy_kwh": 1.4937690974351876
+          },
+          {
+            "from_node": "S008",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 8109.473184928188,
+            "climb_m": 102.00933227539065,
+            "descent_m": 245.20933227539064,
+            "flight_time": 672.718389330499,
+            "energy_kwh": 1.1835911734133424
+          }
+        ],
+        "box_delivery_offsets": {
+          "S008-MED-01": 1233.1717226638323,
+          "S008-WAT-01": 1233.1717226638323
+        }
+      },
+      "trip_id": "Q3T015"
+    },
+    {
+      "route_index": 21,
+      "drone_id": "U07",
+      "drone_type": "C",
+      "battery_id": "BAT-C04",
+      "start_time": 6977.395309042311,
+      "takeoff_time": 7487.395309042311,
+      "return_time": 9391.1747218631,
+      "energy_kwh": 4.2881547065177,
+      "end_soc": 0.4639806616852875,
+      "charge_end_time": 11385.883288211644,
+      "service_sequence": [
+        "S006",
+        "S007"
+      ],
+      "box_delivery": {
+        "S006-FOD-01": 8144.472251679293,
+        "S006-HYG-01": 8144.472251679293,
+        "S006-WAT-02": 8144.472251679293,
+        "S006-WAT-03": 8144.472251679293,
+        "S007-FOD-01": 8831.39367111999,
+        "S007-HYG-01": 8831.39367111999,
+        "S007-WAT-02": 8831.39367111999
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 7,
+        "total_mass": 70.0,
+        "total_volume": 0.207,
+        "pre_operation_time": 510.0,
+        "takeoff_offset": 510.0,
+        "duration": 2413.7794128207897,
+        "total_energy": 4.2881547065177,
+        "end_soc": 0.4639806616852875,
+        "latest_start": null,
+        "soft_due_start": 1746.0016379223223,
+        "stops": [
+          {
+            "service_id": "S006",
+            "box_ids": [
+              "S006-FOD-01",
+              "S006-HYG-01",
+              "S006-WAT-02",
+              "S006-WAT-03"
+            ],
+            "delivery_mass": 42.0,
+            "delivery_volume": 0.11699999999999999,
+            "arrival_offset": 843.0769426369815,
+            "service_duration": 324.0,
+            "delivery_offset": 1167.0769426369816
+          },
+          {
+            "service_id": "S007",
+            "box_ids": [
+              "S007-FOD-01",
+              "S007-HYG-01",
+              "S007-WAT-02"
+            ],
+            "delivery_mass": 28.0,
+            "delivery_volume": 0.09,
+            "arrival_offset": 1565.9983620776777,
+            "service_duration": 288.0,
+            "delivery_offset": 1853.9983620776777
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S006",
+            "payload_mass": 70.0,
+            "payload_volume": 0.207,
+            "distance_m": 3181.0333082558936,
+            "climb_m": 238.39783935546876,
+            "descent_m": 51.29783935546874,
+            "flight_time": 333.07694263698147,
+            "energy_kwh": 1.876310833831071
+          },
+          {
+            "from_node": "S006",
+            "to_node": "S007",
+            "payload_mass": 28.0,
+            "payload_volume": 0.09,
+            "distance_m": 2516.493361922941,
+            "climb_m": 275.561328125,
+            "descent_m": 241.861328125,
+            "flight_time": 398.92141944069607,
+            "energy_kwh": 0.9735727350468071
+          },
+          {
+            "from_node": "S007",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 4533.827897987505,
+            "climb_m": 163.47317504882812,
+            "descent_m": 384.27317504882814,
+            "flight_time": 559.7810507431122,
+            "energy_kwh": 1.438271137639822
+          }
+        ],
+        "box_delivery_offsets": {
+          "S006-FOD-01": 1167.0769426369816,
+          "S006-HYG-01": 1167.0769426369816,
+          "S006-WAT-02": 1167.0769426369816,
+          "S006-WAT-03": 1167.0769426369816,
+          "S007-FOD-01": 1853.9983620776777,
+          "S007-HYG-01": 1853.9983620776777,
+          "S007-WAT-02": 1853.9983620776777
+        }
+      },
+      "trip_id": "Q3T016"
+    },
+    {
+      "route_index": 17,
+      "drone_id": "U07",
+      "drone_type": "C",
+      "battery_id": "BAT-C03",
+      "start_time": 9391.1747218631,
+      "takeoff_time": 9871.1747218631,
+      "return_time": 11502.182848445673,
+      "energy_kwh": 6.125027879101275,
+      "end_soc": 0.23437151511234067,
+      "charge_end_time": 13994.377899035602,
+      "service_sequence": [
+        "S002"
+      ],
+      "box_delivery": {
+        "S002-FOD-01": 10880.088785154387,
+        "S002-FOD-02": 10880.088785154387,
+        "S002-HYG-01": 10880.088785154387,
+        "S002-WAT-02": 10880.088785154387,
+        "S002-WAT-03": 10880.088785154387,
+        "S002-WAT-04": 10880.088785154387
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 6,
+        "total_mass": 64.0,
+        "total_volume": 0.172,
+        "pre_operation_time": 480.0,
+        "takeoff_offset": 480.0,
+        "duration": 2111.0081265825715,
+        "total_energy": 6.125027879101275,
+        "end_soc": 0.23437151511234067,
+        "latest_start": null,
+        "soft_due_start": 2111.085936708714,
+        "stops": [
+          {
+            "service_id": "S002",
+            "box_ids": [
+              "S002-FOD-01",
+              "S002-FOD-02",
+              "S002-HYG-01",
+              "S002-WAT-02",
+              "S002-WAT-03",
+              "S002-WAT-04"
+            ],
+            "delivery_mass": 64.0,
+            "delivery_volume": 0.172,
+            "arrival_offset": 1092.9140632912859,
+            "service_duration": 396.0,
+            "delivery_offset": 1488.9140632912859
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S002",
+            "payload_mass": 64.0,
+            "payload_volume": 0.172,
+            "distance_m": 7435.278518339014,
+            "climb_m": 181.25425415039064,
+            "descent_m": 89.45425415039062,
+            "flight_time": 612.9140632912859,
+            "energy_kwh": 3.813584564159986
+          },
+          {
+            "from_node": "S002",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 7435.278518339014,
+            "climb_m": 89.45425415039062,
+            "descent_m": 181.25425415039064,
+            "flight_time": 622.0940632912858,
+            "energy_kwh": 2.311443314941289
+          }
+        ],
+        "box_delivery_offsets": {
+          "S002-FOD-01": 1488.9140632912859,
+          "S002-FOD-02": 1488.9140632912859,
+          "S002-HYG-01": 1488.9140632912859,
+          "S002-WAT-02": 1488.9140632912859,
+          "S002-WAT-03": 1488.9140632912859,
+          "S002-WAT-04": 1488.9140632912859
+        }
+      },
+      "trip_id": "Q3T017"
+    },
+    {
+      "route_index": 24,
+      "drone_id": "U05",
+      "drone_type": "B",
+      "battery_id": "BAT-B04",
+      "start_time": 11096.93818346325,
+      "takeoff_time": 11456.93818346325,
+      "return_time": 13152.341529463647,
+      "energy_kwh": 2.0644090985842025,
+      "end_soc": 0.48389772535394937,
+      "charge_end_time": 14713.585472183468,
+      "service_sequence": [
+        "S010",
+        "S014"
+      ],
+      "box_delivery": {
+        "S010-FOD-01": 12091.760969710636,
+        "S014-FOD-01": 12525.598972195792
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "B",
+        "total_boxes": 2,
+        "total_mass": 16.0,
+        "total_volume": 0.056,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 2055.403346000398,
+        "total_energy": 2.0644090985842025,
+        "end_soc": 0.48389772535394937,
+        "latest_start": null,
+        "soft_due_start": 5771.339211267456,
+        "stops": [
+          {
+            "service_id": "S010",
+            "box_ids": [
+              "S010-FOD-01"
+            ],
+            "delivery_mass": 8.0,
+            "delivery_volume": 0.028,
+            "arrival_offset": 814.8227862473866,
+            "service_duration": 180.0,
+            "delivery_offset": 994.8227862473866
+          },
+          {
+            "service_id": "S014",
+            "box_ids": [
+              "S014-FOD-01"
+            ],
+            "delivery_mass": 8.0,
+            "delivery_volume": 0.028,
+            "arrival_offset": 1248.6607887325436,
+            "service_duration": 180.0,
+            "delivery_offset": 1428.6607887325436
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S010",
+            "payload_mass": 16.0,
+            "payload_volume": 0.056,
+            "distance_m": 4778.439901620956,
+            "climb_m": 307.93653564453126,
+            "descent_m": 84.03653564453123,
+            "flight_time": 454.82278624738666,
+            "energy_kwh": 0.9138169092953241
+          },
+          {
+            "from_node": "S010",
+            "to_node": "S014",
+            "payload_mass": 8.0,
+            "payload_volume": 0.028,
+            "distance_m": 1758.3707880097782,
+            "climb_m": 185.96356811523435,
+            "descent_m": 186.56356811523438,
+            "flight_time": 253.83800248515706,
+            "energy_kwh": 0.3183293023316004
+          },
+          {
+            "from_node": "S014",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 5410.917094369381,
+            "climb_m": 240.9473876953125,
+            "descent_m": 464.2473876953125,
+            "flight_time": 626.7425572678545,
+            "energy_kwh": 0.8322628869572777
+          }
+        ],
+        "box_delivery_offsets": {
+          "S010-FOD-01": 994.8227862473866,
+          "S014-FOD-01": 1428.6607887325436
+        }
+      },
+      "trip_id": "Q3T018"
+    },
+    {
+      "route_index": 16,
+      "drone_id": "U07",
+      "drone_type": "C",
+      "battery_id": "BAT-C02",
+      "start_time": 11502.182848445673,
+      "takeoff_time": 12042.182848445673,
+      "return_time": 13759.086966824689,
+      "energy_kwh": 4.290519305772517,
+      "end_soc": 0.46368508677843534,
+      "charge_end_time": 15754.435945471412,
+      "service_sequence": [
+        "S001",
+        "S013"
+      ],
+      "box_delivery": {
+        "S001-FOD-01": 12781.081219294945,
+        "S001-FOD-02": 12781.081219294945,
+        "S001-FOD-03": 12781.081219294945,
+        "S001-HYG-01": 12781.081219294945,
+        "S001-HYG-02": 12781.081219294945,
+        "S001-WAT-07": 12781.081219294945,
+        "S001-WAT-08": 12781.081219294945,
+        "S013-FOD-01": 13281.106192139941
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 8,
+        "total_mass": 72.0,
+        "total_volume": 0.23600000000000002,
+        "pre_operation_time": 540.0,
+        "takeoff_offset": 540.0,
+        "duration": 2256.904118379016,
+        "total_energy": 4.290519305772517,
+        "end_soc": 0.46368508677843534,
+        "latest_start": null,
+        "soft_due_start": 2321.1016291507276,
+        "stops": [
+          {
+            "service_id": "S001",
+            "box_ids": [
+              "S001-FOD-01",
+              "S001-FOD-02",
+              "S001-FOD-03",
+              "S001-HYG-01",
+              "S001-HYG-02",
+              "S001-WAT-07",
+              "S001-WAT-08"
+            ],
+            "delivery_mass": 64.0,
+            "delivery_volume": 0.20800000000000002,
+            "arrival_offset": 846.8983708492726,
+            "service_duration": 432.0,
+            "delivery_offset": 1278.8983708492726
+          },
+          {
+            "service_id": "S013",
+            "box_ids": [
+              "S013-FOD-01"
+            ],
+            "delivery_mass": 8.0,
+            "delivery_volume": 0.028,
+            "arrival_offset": 1562.9233436942682,
+            "service_duration": 216.0,
+            "delivery_offset": 1778.9233436942682
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S001",
+            "payload_mass": 72.0,
+            "payload_volume": 0.23600000000000002,
+            "distance_m": 3063.4113262888936,
+            "climb_m": 145.3566101074219,
+            "descent_m": 89.05661010742188,
+            "flight_time": 306.8983708492726,
+            "energy_kwh": 1.8227786120112939
+          },
+          {
+            "from_node": "S001",
+            "to_node": "S013",
+            "payload_mass": 8.0,
+            "payload_volume": 0.028,
+            "distance_m": 2894.2536667716154,
+            "climb_m": 194.36080932617188,
+            "descent_m": 26.660809326171886,
+            "flight_time": 284.02497284499566,
+            "energy_kwh": 0.9632694322467436
+          },
+          {
+            "from_node": "S013",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 4848.706999909886,
+            "climb_m": 47.48182373046876,
+            "descent_m": 271.48182373046876,
+            "flight_time": 477.98077468474764,
+            "energy_kwh": 1.5044712615144802
+          }
+        ],
+        "box_delivery_offsets": {
+          "S001-FOD-01": 1278.8983708492726,
+          "S001-FOD-02": 1278.8983708492726,
+          "S001-FOD-03": 1278.8983708492726,
+          "S001-HYG-01": 1278.8983708492726,
+          "S001-HYG-02": 1278.8983708492726,
+          "S001-WAT-07": 1278.8983708492726,
+          "S001-WAT-08": 1278.8983708492726,
+          "S013-FOD-01": 1778.9233436942682
+        }
+      },
+      "trip_id": "Q3T019"
+    },
+    {
+      "route_index": 23,
+      "drone_id": "U06",
+      "drone_type": "B",
+      "battery_id": "BAT-B03",
+      "start_time": 12793.313896797863,
+      "takeoff_time": 13153.313896797863,
+      "return_time": 14901.210299237018,
+      "energy_kwh": 2.608587723716947,
+      "end_soc": 0.3478530690707633,
+      "charge_end_time": 16698.264979514362,
+      "service_sequence": [
+        "S009",
+        "S012"
+      ],
+      "box_delivery": {
+        "S009-FOD-01": 13795.293792071418,
+        "S012-FOD-01": 14249.239598910952
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "B",
+        "total_boxes": 2,
+        "total_mass": 16.0,
+        "total_volume": 0.056,
+        "pre_operation_time": 360.0,
+        "takeoff_offset": 360.0,
+        "duration": 2107.896402439155,
+        "total_energy": 2.608587723716947,
+        "end_soc": 0.3478530690707633,
+        "latest_start": null,
+        "soft_due_start": 5744.074297886911,
+        "stops": [
+          {
+            "service_id": "S009",
+            "box_ids": [
+              "S009-FOD-01"
+            ],
+            "delivery_mass": 8.0,
+            "delivery_volume": 0.028,
+            "arrival_offset": 821.9798952735554,
+            "service_duration": 180.0,
+            "delivery_offset": 1001.9798952735554
+          },
+          {
+            "service_id": "S012",
+            "box_ids": [
+              "S012-FOD-01"
+            ],
+            "delivery_mass": 8.0,
+            "delivery_volume": 0.028,
+            "arrival_offset": 1275.9257021130888,
+            "service_duration": 180.0,
+            "delivery_offset": 1455.9257021130888
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S009",
+            "payload_mass": 16.0,
+            "payload_volume": 0.056,
+            "distance_m": 5722.680393214659,
+            "climb_m": 165.52891235351564,
+            "descent_m": 63.228912353515625,
+            "flight_time": 461.97989527355537,
+            "energy_kwh": 1.0320800601880251
+          },
+          {
+            "from_node": "S009",
+            "to_node": "S012",
+            "payload_mass": 8.0,
+            "payload_volume": 0.028,
+            "distance_m": 2967.8713189015966,
+            "climb_m": 130.91961669921875,
+            "descent_m": 81.11961669921874,
+            "flight_time": 273.9458068395335,
+            "energy_kwh": 0.48674412580169923
+          },
+          {
+            "from_node": "S012",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 7398.4495612874725,
+            "climb_m": 133.50099487304686,
+            "descent_m": 285.6009948730469,
+            "flight_time": 651.9707003260659,
+            "energy_kwh": 1.0897635377272221
+          }
+        ],
+        "box_delivery_offsets": {
+          "S009-FOD-01": 1001.9798952735554,
+          "S012-FOD-01": 1455.9257021130888
+        }
+      },
+      "trip_id": "Q3T020"
+    },
+    {
+      "route_index": 15,
+      "drone_id": "U07",
+      "drone_type": "C",
+      "battery_id": "BAT-C04",
+      "start_time": 13759.086966824689,
+      "takeoff_time": 14209.086966824689,
+      "return_time": 15188.513708523235,
+      "energy_kwh": 2.7284841977447503,
+      "end_soc": 0.6589394752819062,
+      "charge_end_time": 16760.811512079104,
+      "service_sequence": [
+        "S001"
+      ],
+      "box_delivery": {
+        "S001-WAT-02": 14875.985337673961,
+        "S001-WAT-03": 14875.985337673961,
+        "S001-WAT-04": 14875.985337673961,
+        "S001-WAT-05": 14875.985337673961,
+        "S001-WAT-06": 14875.985337673961
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 5,
+        "total_mass": 70.0,
+        "total_volume": 0.135,
+        "pre_operation_time": 450.0,
+        "takeoff_offset": 450.0,
+        "duration": 1429.4267416985454,
+        "total_energy": 2.7284841977447503,
+        "end_soc": 0.6589394752819062,
+        "latest_start": null,
+        "soft_due_start": 2483.1016291507276,
+        "stops": [
+          {
+            "service_id": "S001",
+            "box_ids": [
+              "S001-WAT-02",
+              "S001-WAT-03",
+              "S001-WAT-04",
+              "S001-WAT-05",
+              "S001-WAT-06"
+            ],
+            "delivery_mass": 70.0,
+            "delivery_volume": 0.135,
+            "arrival_offset": 756.8983708492726,
+            "service_duration": 360.0,
+            "delivery_offset": 1116.8983708492726
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S001",
+            "payload_mass": 70.0,
+            "payload_volume": 0.135,
+            "distance_m": 3063.4113262888936,
+            "climb_m": 145.3566101074219,
+            "descent_m": 89.05661010742188,
+            "flight_time": 306.8983708492726,
+            "energy_kwh": 1.7623359856096446
+          },
+          {
+            "from_node": "S001",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 3063.4113262888936,
+            "climb_m": 89.05661010742188,
+            "descent_m": 145.3566101074219,
+            "flight_time": 312.5283708492726,
+            "energy_kwh": 0.9661482121351056
+          }
+        ],
+        "box_delivery_offsets": {
+          "S001-WAT-02": 1116.8983708492726,
+          "S001-WAT-03": 1116.8983708492726,
+          "S001-WAT-04": 1116.8983708492726,
+          "S001-WAT-05": 1116.8983708492726,
+          "S001-WAT-06": 1116.8983708492726
+        }
+      },
+      "trip_id": "Q3T021"
+    },
+    {
+      "route_index": 18,
+      "drone_id": "U08",
+      "drone_type": "C",
+      "battery_id": "BAT-C01",
+      "start_time": 14778.223271115605,
+      "takeoff_time": 15258.223271115605,
+      "return_time": 17214.03412922804,
+      "energy_kwh": 6.147777755332084,
+      "end_soc": 0.23152778058348955,
+      "charge_end_time": 19712.390604630476,
+      "service_sequence": [
+        "S003"
+      ],
+      "box_delivery": {
+        "S003-FOD-01": 16423.588700171822,
+        "S003-FOD-02": 16423.588700171822,
+        "S003-HYG-01": 16423.588700171822,
+        "S003-WAT-02": 16423.588700171822,
+        "S003-WAT-03": 16423.588700171822,
+        "S003-WAT-04": 16423.588700171822
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 6,
+        "total_mass": 64.0,
+        "total_volume": 0.172,
+        "pre_operation_time": 480.0,
+        "takeoff_offset": 480.0,
+        "duration": 2435.8108581124334,
+        "total_energy": 6.147777755332084,
+        "end_soc": 0.23152778058348955,
+        "latest_start": null,
+        "soft_due_start": 5554.634570943783,
+        "stops": [
+          {
+            "service_id": "S003",
+            "box_ids": [
+              "S003-FOD-01",
+              "S003-FOD-02",
+              "S003-HYG-01",
+              "S003-WAT-02",
+              "S003-WAT-03",
+              "S003-WAT-04"
+            ],
+            "delivery_mass": 64.0,
+            "delivery_volume": 0.172,
+            "arrival_offset": 1249.3654290562167,
+            "service_duration": 396.0,
+            "delivery_offset": 1645.3654290562167
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S003",
+            "payload_mass": 64.0,
+            "payload_volume": 0.172,
+            "distance_m": 7261.075570364734,
+            "climb_m": 434.10413818359376,
+            "descent_m": 223.30413818359375,
+            "flight_time": 769.3654290562166,
+            "energy_kwh": 3.854525081784895
+          },
+          {
+            "from_node": "S003",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 7261.075570364734,
+            "climb_m": 223.30413818359375,
+            "descent_m": 434.10413818359376,
+            "flight_time": 790.4454290562165,
+            "energy_kwh": 2.2932526735471885
+          }
+        ],
+        "box_delivery_offsets": {
+          "S003-FOD-01": 1645.3654290562167,
+          "S003-FOD-02": 1645.3654290562167,
+          "S003-HYG-01": 1645.3654290562167,
+          "S003-WAT-02": 1645.3654290562167,
+          "S003-WAT-03": 1645.3654290562167,
+          "S003-WAT-04": 1645.3654290562167
+        }
+      },
+      "trip_id": "Q3T022"
+    },
+    {
+      "route_index": 19,
+      "drone_id": "U07",
+      "drone_type": "C",
+      "battery_id": "BAT-C03",
+      "start_time": 15188.513708523235,
+      "takeoff_time": 15608.513708523235,
+      "return_time": 17361.699199991057,
+      "energy_kwh": 5.54001131805407,
+      "end_soc": 0.30749858524324125,
+      "charge_end_time": 19695.45226529737,
+      "service_sequence": [
+        "S004"
+      ],
+      "box_delivery": {
+        "S004-FOD-01": 16642.076454257145,
+        "S004-HYG-01": 16642.076454257145,
+        "S004-WAT-02": 16642.076454257145,
+        "S004-WAT-03": 16642.076454257145
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 4,
+        "total_mass": 42.0,
+        "total_volume": 0.11699999999999999,
+        "pre_operation_time": 420.0,
+        "takeoff_offset": 420.0,
+        "duration": 2173.185491467822,
+        "total_energy": 5.54001131805407,
+        "end_soc": 0.30749858524324125,
+        "latest_start": null,
+        "soft_due_start": 5746.437254266089,
+        "stops": [
+          {
+            "service_id": "S004",
+            "box_ids": [
+              "S004-FOD-01",
+              "S004-HYG-01",
+              "S004-WAT-02",
+              "S004-WAT-03"
+            ],
+            "delivery_mass": 42.0,
+            "delivery_volume": 0.11699999999999999,
+            "arrival_offset": 1129.562745733911,
+            "service_duration": 324.0,
+            "delivery_offset": 1453.562745733911
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S004",
+            "payload_mass": 42.0,
+            "payload_volume": 0.11699999999999999,
+            "distance_m": 7745.662441501828,
+            "climb_m": 270.53916625976564,
+            "descent_m": 169.9391662597656,
+            "flight_time": 709.562745733911,
+            "energy_kwh": 3.111772806348788
+          },
+          {
+            "from_node": "S004",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 7745.662441501828,
+            "climb_m": 169.9391662597656,
+            "descent_m": 270.53916625976564,
+            "flight_time": 719.622745733911,
+            "energy_kwh": 2.428238511705282
+          }
+        ],
+        "box_delivery_offsets": {
+          "S004-FOD-01": 1453.562745733911,
+          "S004-HYG-01": 1453.562745733911,
+          "S004-WAT-02": 1453.562745733911,
+          "S004-WAT-03": 1453.562745733911
+        }
+      },
+      "trip_id": "Q3T023"
+    },
+    {
+      "route_index": 22,
+      "drone_id": "U08",
+      "drone_type": "C",
+      "battery_id": "BAT-C02",
+      "start_time": 17214.03412922804,
+      "takeoff_time": 17634.03412922804,
+      "return_time": 20046.364281659073,
+      "energy_kwh": 6.318036796062188,
+      "end_soc": 0.2102454004922265,
+      "charge_end_time": 22590.83258059258,
+      "service_sequence": [
+        "S008",
+        "S015"
+      ],
+      "box_delivery": {
+        "S008-FOD-01": 18611.75407393777,
+        "S008-HYG-01": 18611.75407393777,
+        "S008-WAT-02": 18611.75407393777,
+        "S015-FOD-01": 19384.120688589217
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 4,
+        "total_mass": 36.0,
+        "total_volume": 0.118,
+        "pre_operation_time": 420.0,
+        "takeoff_offset": 420.0,
+        "duration": 2832.330152431033,
+        "total_energy": 6.318036796062188,
+        "end_soc": 0.2102454004922265,
+        "latest_start": null,
+        "soft_due_start": 5802.280055290269,
+        "stops": [
+          {
+            "service_id": "S008",
+            "box_ids": [
+              "S008-FOD-01",
+              "S008-HYG-01",
+              "S008-WAT-02"
+            ],
+            "delivery_mass": 28.0,
+            "delivery_volume": 0.09,
+            "arrival_offset": 1109.7199447097307,
+            "service_duration": 288.0,
+            "delivery_offset": 1397.7199447097307
+          },
+          {
+            "service_id": "S015",
+            "box_ids": [
+              "S015-FOD-01"
+            ],
+            "delivery_mass": 8.0,
+            "delivery_volume": 0.028,
+            "arrival_offset": 1954.0865593611761,
+            "service_duration": 216.0,
+            "delivery_offset": 2170.086559361176
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S008",
+            "payload_mass": 36.0,
+            "payload_volume": 0.118,
+            "distance_m": 8109.473184928188,
+            "climb_m": 245.20933227539064,
+            "descent_m": 102.00933227539065,
+            "flight_time": 689.7199447097307,
+            "energy_kwh": 3.0778104683209278
+          },
+          {
+            "from_node": "S008",
+            "to_node": "S015",
+            "payload_mass": 8.0,
+            "payload_volume": 0.028,
+            "distance_m": 3938.561695357619,
+            "climb_m": 439.550927734375,
+            "descent_m": 235.950927734375,
+            "flight_time": 556.3666146514454,
+            "energy_kwh": 1.3624505459374117
+          },
+          {
+            "from_node": "S015",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 6019.113948538092,
+            "climb_m": 97.29925537109375,
+            "descent_m": 444.09925537109376,
+            "flight_time": 662.2435930698572,
+            "energy_kwh": 1.8777757818038485
+          }
+        ],
+        "box_delivery_offsets": {
+          "S008-FOD-01": 1397.7199447097307,
+          "S008-HYG-01": 1397.7199447097307,
+          "S008-WAT-02": 1397.7199447097307,
+          "S015-FOD-01": 2170.086559361176
+        }
+      },
+      "trip_id": "Q3T024"
+    },
+    {
+      "route_index": 20,
+      "drone_id": "U07",
+      "drone_type": "C",
+      "battery_id": "BAT-C04",
+      "start_time": 17361.699199991057,
+      "takeoff_time": 17811.699199991057,
+      "return_time": 19471.564185768002,
+      "energy_kwh": 4.069045391342822,
+      "end_soc": 0.49136932608214723,
+      "charge_end_time": 21406.93064592335,
+      "service_sequence": [
+        "S011",
+        "S005"
+      ],
+      "box_delivery": {
+        "S011-FOD-01": 18324.204894835148,
+        "S005-FOD-01": 18966.176377219963,
+        "S005-HYG-01": 18966.176377219963,
+        "S005-WAT-02": 18966.176377219963,
+        "S005-WAT-03": 18966.176377219963
+      },
+      "route_eval": {
+        "feasible": true,
+        "reason": "OK",
+        "drone_type": "C",
+        "total_boxes": 5,
+        "total_mass": 50.0,
+        "total_volume": 0.145,
+        "pre_operation_time": 450.0,
+        "takeoff_offset": 450.0,
+        "duration": 2109.8649857769465,
+        "total_energy": 4.069045391342822,
+        "end_soc": 0.49136932608214723,
+        "latest_start": null,
+        "soft_due_start": 9195.522822771094,
+        "stops": [
+          {
+            "service_id": "S011",
+            "box_ids": [
+              "S011-FOD-01"
+            ],
+            "delivery_mass": 8.0,
+            "delivery_volume": 0.028,
+            "arrival_offset": 746.5056948440896,
+            "service_duration": 216.0,
+            "delivery_offset": 962.5056948440896
+          },
+          {
+            "service_id": "S005",
+            "box_ids": [
+              "S005-FOD-01",
+              "S005-HYG-01",
+              "S005-WAT-02",
+              "S005-WAT-03"
+            ],
+            "delivery_mass": 42.0,
+            "delivery_volume": 0.11699999999999999,
+            "arrival_offset": 1280.4771772289064,
+            "service_duration": 324.0,
+            "delivery_offset": 1604.4771772289064
+          }
+        ],
+        "legs": [
+          {
+            "from_node": "O01",
+            "to_node": "S011",
+            "payload_mass": 50.0,
+            "payload_volume": 0.145,
+            "distance_m": 2817.1517251515784,
+            "climb_m": 167.66175537109376,
+            "descent_m": 83.26175537109376,
+            "flight_time": 296.5056948440896,
+            "energy_kwh": 1.2571227781596799
+          },
+          {
+            "from_node": "S011",
+            "to_node": "S005",
+            "payload_mass": 42.0,
+            "payload_volume": 0.11699999999999999,
+            "distance_m": 2812.761820122839,
+            "climb_m": 135.44891967773438,
+            "descent_m": 152.54891967773438,
+            "flight_time": 317.97148238481685,
+            "energy_kwh": 1.1457667792276094
+          },
+          {
+            "from_node": "S005",
+            "to_node": "O01",
+            "payload_mass": 0.0,
+            "payload_volume": 0.0,
+            "distance_m": 5302.020131150288,
+            "climb_m": 131.410888671875,
+            "descent_m": 198.710888671875,
+            "flight_time": 505.3878085480401,
+            "energy_kwh": 1.6661558339555333
+          }
+        ],
+        "box_delivery_offsets": {
+          "S011-FOD-01": 962.5056948440896,
+          "S005-FOD-01": 1604.4771772289064,
+          "S005-HYG-01": 1604.4771772289064,
+          "S005-WAT-02": 1604.4771772289064,
+          "S005-WAT-03": 1604.4771772289064
+        }
+      },
+      "trip_id": "Q3T025"
+    }
+  ],
+  "relay_sorties": [
+    {
+      "sortie_id": "Q3R001",
+      "relay_id": "R01",
+      "component_id": "RE-01",
+      "candidate_id": "C0647_0668_300",
+      "start_time": 71.47100179663573,
+      "link_complete_time": 694.9232964250626,
+      "service_end_time": 4069.9437396694298,
+      "return_time": 4526.658056697759,
+      "energy_kwh": 1.267827310061357,
+      "end_soc": 0.6038039656058259,
+      "charge_end_time": 5541.712901410186,
+      "lon": 109.21833333333333,
+      "lat": 23.045,
+      "alt": 646.8442687988281,
+      "demand_ids": [
+        "Q3T001",
+        "Q3T003",
+        "Q3T004",
+        "Q3T005",
+        "Q3T006",
+        "Q3T009",
+        "Q3T010",
+        "Q3T011"
+      ]
+    },
+    {
+      "sortie_id": "Q3R002",
+      "relay_id": "R02",
+      "component_id": "RE-02",
+      "candidate_id": "C0757_0858_300",
+      "start_time": 79.66988417616722,
+      "link_complete_time": 694.9232964250626,
+      "service_end_time": 1585.1510124520803,
+      "return_time": 2032.7568961161776,
+      "energy_kwh": 0.504119462870096,
+      "end_soc": 0.842462667853095,
+      "charge_end_time": 2737.555427907154,
+      "lon": 109.27111111111111,
+      "lat": 23.014444444444443,
+      "alt": 635.9296569824219,
+      "demand_ids": [
+        "Q3T001",
+        "Q3T002",
+        "Q3T004",
+        "Q3T005"
+      ]
+    },
+    {
+      "sortie_id": "Q3R003",
+      "relay_id": "R02",
+      "component_id": "RE-03",
+      "candidate_id": "C0576_0782_300",
+      "start_time": 3175.6054210711895,
+      "link_complete_time": 3922.683846444998,
+      "service_end_time": 11149.134126605572,
+      "return_time": 11719.672128649709,
+      "energy_kwh": 2.531962407214637,
+      "end_soc": 0.20876174774542589,
+      "charge_end_time": 13248.281856580656,
+      "lon": 109.25,
+      "lat": 23.064722222222223,
+      "alt": 529.2149200439453,
+      "demand_ids": [
+        "Q3T010",
+        "Q3T011",
+        "Q3T013",
+        "Q3T015",
+        "Q3T017"
+      ]
+    },
+    {
+      "sortie_id": "Q3R004",
+      "relay_id": "R01",
+      "component_id": "RE-04",
+      "candidate_id": "C0721_0594_120",
+      "start_time": 5717.57724431069,
+      "link_complete_time": 6304.631305950988,
+      "service_end_time": 8951.738430812096,
+      "return_time": 9367.083107279868,
+      "energy_kwh": 1.0238812649043134,
+      "end_soc": 0.6800371047174021,
+      "charge_end_time": 10283.034871147245,
+      "lon": 109.19777777777779,
+      "lat": 23.024444444444445,
+      "alt": 587.1873779296875,
+      "demand_ids": [
+        "Q3T013",
+        "Q3T014",
+        "Q3T015",
+        "Q3T016"
+      ]
+    },
+    {
+      "sortie_id": "Q3R005",
+      "relay_id": "R01",
+      "component_id": "RE-05",
+      "candidate_id": "C0757_0858_300",
+      "start_time": 11204.972459547917,
+      "link_complete_time": 11820.225871796812,
+      "service_end_time": 14525.848152065888,
+      "return_time": 14973.454035729985,
+      "energy_kwh": 1.0588233574996138,
+      "end_soc": 0.6691177007813707,
+      "charge_end_time": 15903.601024714202,
+      "lon": 109.27111111111111,
+      "lat": 23.014444444444443,
+      "alt": 635.9296569824219,
+      "demand_ids": [
+        "Q3T018",
+        "Q3T019",
+        "Q3T020"
+      ]
+    },
+    {
+      "sortie_id": "Q3R006",
+      "relay_id": "R02",
+      "component_id": "RE-06",
+      "candidate_id": "C0694_0675_240",
+      "start_time": 13346.420718983758,
+      "link_complete_time": 13817.113728187955,
+      "service_end_time": 13980.26086996647,
+      "return_time": 14265.14911766554,
+      "energy_kwh": 0.2050202185050892,
+      "end_soc": 0.9359311817171596,
+      "charge_end_time": 14668.782672847434,
+      "lon": 109.22027777777778,
+      "lat": 23.031944444444445,
+      "alt": 418.04286193847656,
+      "demand_ids": [
+        "Q3T020"
+      ]
+    },
+    {
+      "sortie_id": "Q3R007",
+      "relay_id": "R02",
+      "component_id": "RE-02",
+      "candidate_id": "C0721_0594_120",
+      "start_time": 15101.084120173382,
+      "link_complete_time": 15688.13818181368,
+      "service_end_time": 16853.490314122195,
+      "return_time": 17268.834990589967,
+      "energy_kwh": 0.5711227949576875,
+      "end_soc": 0.8215241265757227,
+      "charge_end_time": 18000.853626041528,
+      "lon": 109.19777777777779,
+      "lat": 23.024444444444445,
+      "alt": 587.1873779296875,
+      "demand_ids": [
+        "Q3T022",
+        "Q3T023"
+      ]
+    },
+    {
+      "sortie_id": "Q3R008",
+      "relay_id": "R01",
+      "component_id": "RE-01",
+      "candidate_id": "C0576_0782_300",
+      "start_time": 15342.590252392307,
+      "link_complete_time": 16089.668677766116,
+      "service_end_time": 19566.352627607605,
+      "return_time": 20136.89062965174,
+      "energy_kwh": 1.386200472950472,
+      "end_soc": 0.5668123522029775,
+      "charge_end_time": 21200.03457178787,
+      "lon": 109.25,
+      "lat": 23.064722222222223,
+      "alt": 529.2149200439453,
+      "demand_ids": [
+        "Q3T023",
+        "Q3T024",
+        "Q3T025"
+      ]
+    },
+    {
+      "sortie_id": "Q3R009",
+      "relay_id": "R02",
+      "component_id": "RE-04",
+      "candidate_id": "C0709_0655_300",
+      "start_time": 18099.516318997274,
+      "link_complete_time": 18616.751557273677,
+      "service_end_time": 19509.027732859624,
+      "return_time": 19858.570502874307,
+      "energy_kwh": 0.4421608294465388,
+      "end_soc": 0.8618247407979567,
+      "charge_end_time": 20538.198339836963,
+      "lon": 109.21472222222222,
+      "lat": 23.02777777777778,
+      "alt": 635.390380859375,
+      "demand_ids": [
+        "Q3T024",
+        "Q3T025"
+      ]
+    }
+  ],
+  "relay_sites": {
+    "C0709_0655_300": {
+      "candidate_id": "C0709_0655_300",
+      "row": 709,
+      "col": 655,
+      "lon": 109.21472222222222,
+      "lat": 23.02777777777778,
+      "ground_alt": 335.390380859375,
+      "agl": 300.0,
+      "alt": 635.390380859375
+    },
+    "C0721_0594_120": {
+      "candidate_id": "C0721_0594_120",
+      "row": 721,
+      "col": 594,
+      "lon": 109.19777777777779,
+      "lat": 23.024444444444445,
+      "ground_alt": 467.1873779296875,
+      "agl": 120.0,
+      "alt": 587.1873779296875
+    },
+    "C0757_0858_300": {
+      "candidate_id": "C0757_0858_300",
+      "row": 757,
+      "col": 858,
+      "lon": 109.27111111111111,
+      "lat": 23.014444444444443,
+      "ground_alt": 335.9296569824219,
+      "agl": 300.0,
+      "alt": 635.9296569824219
+    },
+    "C0576_0782_300": {
+      "candidate_id": "C0576_0782_300",
+      "row": 576,
+      "col": 782,
+      "lon": 109.25,
+      "lat": 23.064722222222223,
+      "ground_alt": 229.2149200439453,
+      "agl": 300.0,
+      "alt": 529.2149200439453
+    },
+    "C0647_0668_300": {
+      "candidate_id": "C0647_0668_300",
+      "row": 647,
+      "col": 668,
+      "lon": 109.21833333333333,
+      "lat": 23.045,
+      "ground_alt": 346.8442687988281,
+      "agl": 300.0,
+      "alt": 646.8442687988281
+    },
+    "C0694_0675_240": {
+      "candidate_id": "C0694_0675_240",
+      "row": 694,
+      "col": 675,
+      "lon": 109.22027777777778,
+      "lat": 23.031944444444445,
+      "ground_alt": 178.04286193847656,
+      "agl": 240.0,
+      "alt": 418.04286193847656
+    }
+  },
+  "objective_vector": [
+    562.5656782464702,
+    20136.89062965174,
+    91.79617341950818,
+    34
+  ],
+  "normalized_score": 2.56065499711505,
+  "milp": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "restricted_columns": 13193,
+    "constraints": 37720,
+    "objective": 0.44450450308490663,
+    "dual_bound": 0.44450450308490663,
+    "mip_gap": 0.0,
+    "scope": "fixed transport schedule; finite relay candidates and service-window columns",
+    "restricted_sites": 64,
+    "available_geometric_sites": 584,
+    "phase_I": false,
+    "incumbent_validated": true,
+    "elapsed_s": 2.1070048809051514,
+    "call": 9
+  }
+}

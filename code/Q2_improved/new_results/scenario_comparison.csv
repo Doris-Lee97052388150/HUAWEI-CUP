@@ -1,0 +1,5 @@
+﻿profile,source,weighted_lateness,makespan,energy,trips,hard_violations,on_time_boxes,multi_stop_trips,objective,nondominated_in_reported_set
+balanced,balanced:MILP_fixed_routes_compacted,0.0,8248.920507531224,61.896886714817576,20,0,80,2,0.38779614039474536,True
+time,balanced:MILP_fixed_routes_compacted,0.0,8248.920507531224,61.896886714817576,20,0,80,2,0.3681976629877745,True
+energy,balanced:MILP_fixed_routes_compacted,0.0,8248.920507531224,61.896886714817576,20,0,80,2,0.402065600367088,True
+trips,trips:MILP_fixed_routes_compacted,7.204650699184071,9313.158160864692,60.663635420753316,17,0,75,5,0.40600383556761144,True

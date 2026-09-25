@@ -1,0 +1,33 @@
+{
+  "valid": true,
+  "errors": [],
+  "box_count": 80,
+  "unique_boxes": 80,
+  "hard_deadline_box_count": 31,
+  "medical_box_count": 16,
+  "first_batch_box_count": 30,
+  "minimum_return_soc": 0.20059889588266389,
+  "minimum_hard_deadline_slack_seconds": 180.0935025681556,
+  "recomputed_energy_kwh": 67.11962482159016,
+  "recomputed_makespan_seconds": 9854.31199083279,
+  "resource_peaks": {
+    "A": {
+      "drone_peak": 3,
+      "battery_peak_including_charge": 3,
+      "drone_inventory": 4,
+      "battery_inventory": 6
+    },
+    "B": {
+      "drone_peak": 2,
+      "battery_peak_including_charge": 4,
+      "drone_inventory": 2,
+      "battery_inventory": 4
+    },
+    "C": {
+      "drone_peak": 2,
+      "battery_peak_including_charge": 4,
+      "drone_inventory": 2,
+      "battery_inventory": 4
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "weighted_lateness": 493.83232869230926,
+  "joint_finish_s": 18788.366641380282,
+  "total_energy_kwh": 90.7488112877457,
+  "total_sorties": 36,
+  "transport_sorties": 25,
+  "relay_sorties": 11,
+  "transport_energy_kwh": 82.80505530109838,
+  "relay_energy_kwh": 7.943755986647318,
+  "transport_finish_s": 18773.82465486377,
+  "normalized_objective": 2.318303910145928,
+  "solver": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "restricted_columns": 12435,
+    "constraints": 35871,
+    "objective": 0.42407357045367766,
+    "dual_bound": 0.42406102348515495,
+    "mip_gap": 2.958677313770294e-05,
+    "scope": "fixed transport schedule; finite relay candidates and service-window columns",
+    "restricted_sites": 64,
+    "available_geometric_sites": 584,
+    "phase_I": false,
+    "incumbent_validated": true,
+    "elapsed_s": 1.931196928024292,
+    "call": 14
+  },
+  "audit": {
+    "boxes": 80,
+    "delivered_once": 80,
+    "hard_deadline_violations": 0,
+    "resource_conflicts": 0,
+    "continuous_unproven_intervals": 0,
+    "point_audit_outages": 0,
+    "point_audit_step_s": 1.0,
+    "point_audit_samples": 39846,
+    "certified_intervals": 1126,
+    "minimum_certified_link_margin_db": 0.03638735573836982,
+    "direct_certified_seconds": 22428.606048037527,
+    "relay_backup_seconds": 15708.559051955524,
+    "total_transport_airborne_and_delivery_seconds": 38137.16509999305,
+    "certificate_scope": "piecewise-constant DEM; straight three-stage flights; given deterministic link budget; instantaneous switching",
+    "global_optimality_proved": false
+  },
+  "run": {
+    "seed": 20260924,
+    "transport_iterations": 0,
+    "joint_iterations": 12,
+    "weights": {
+      "lateness": 0.45,
+      "makespan": 0.25,
+      "energy": 0.2,
+      "trips": 0.1
+    },
+    "normalization_scales": {
+      "lateness": 139.37448534880502,
+      "makespan": 13014.678366454586,
+      "energy": 82.89282474705489,
+      "trips": 25
+    },
+    "max_stops_per_route": 4,
+    "candidate_grid_cells": 64,
+    "candidate_heights_agl": "120,240,300",
+    "restricted_site_limit": 64,
+    "window_step_s": 300.0,
+    "comm_interval_step_s": 30.0,
+    "mip_time_s": 20.0,
+    "mip_relative_gap": 0.01,
+    "extra_margin_db": 0.0,
+    "runtime_before_audit_s": 234.1681146621704,
+    "python": "3.11.9",
+    "numpy": "2.3.3",
+    "scipy": "1.16.1",
+    "openpyxl": "3.1.5",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "sources": {
+      "nodes": {
+        "file": "调度中心与服务区.xlsx",
+        "sha256": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38"
+      },
+      "boxes": {
+        "file": "物资需求与配送时限.xlsx",
+        "sha256": "5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a"
+      },
+      "drones": {
+        "file": "运输无人机数据.xlsx",
+        "sha256": "9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb"
+      },
+      "relay": {
+        "file": "中继无人机数据.xlsx",
+        "sha256": "be52643ff29419233e6a141dca03a04160a8af551cab36d8c49b51bb836bea04"
+      },
+      "comm": {
+        "file": "通信链路参数.xlsx",
+        "sha256": "1860d153199e7ae460ba36e83b673374e640e19de91ea167f2877271001f5f81"
+      },
+      "dem": {
+        "file": "镇龙乡及周边30米DEM.mat",
+        "sha256": "c68703e0cc8f94f4bd52ff6e9974b66a2dae33865f0723ad71c04b6694bf4fbf"
+      }
+    }
+  }
+}

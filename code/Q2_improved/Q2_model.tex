@@ -1,0 +1,210 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{fontspec}
+\setmainfont{NotoSansCJKsc-Regular.otf}[Path=fonts/,BoldFont=NotoSansCJKsc-Regular.otf,BoldFeatures={FakeBold=2}]
+\setsansfont{NotoSansCJKsc-Regular.otf}[Path=fonts/,BoldFont=NotoSansCJKsc-Regular.otf,BoldFeatures={FakeBold=2}]
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip=0pt plus 1pt
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\renewcommand{\refname}{参考文献}
+\usepackage[margin=2.1cm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,graphicx,xcolor,hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black}
+\setlength{\parskip}{0.35em}
+\setlength{\emergencystretch}{2em}
+\newcommand{\pos}[1]{\left[#1\right]_+}
+\title{问题二异构无人机运输调度模型与代码改进说明}
+\author{}\date{2026年9月24日}
+\begin{document}
+\maketitle
+\vspace{-2em}
+本文核对题目 Word 文档、80箱逐箱清单、16个任务节点、运输机型与电池数据及30米DEM，评估原 \texttt{q2\_solver(8).py}，并给出可复现的改进程序。原程序已实现较完整的物理规则和自适应大邻域搜索，但不能证明全局最优。改进采用真实端点地形遍历、多起点路线搜索、候选路线与时间索引整数规划及独立资源复算。下文将题目规则、建模约定和计算限制分别说明。
+
+\section{文献方法与本题的对应关系}
+Cheng等\cite{Cheng2020}研究同构无人机的多架次、时间窗配送，使用二指标模型与分支切割算法处理载荷相关凸非线性能耗，核心包括逻辑割与次梯度割。对本题可借鉴的是逐航段剩余载荷计能、显式检查整架次能量和利用优化界评价求解质量。原文的旋翼功率公式不能替代本题规定的等效航程公式，其模型也不能直接证明本题异构机队及有限共享电池调度的最优性。
+
+Phalapanyakoon与Siripongwutikorn\cite{Phala2023}建立异构、多架次、充电与载荷约束的混合整数模型，目标包含租用、电费和任务超时成本，使用包含机型与路线两部分的染色体、两类初始化、交叉和变异求解。可借鉴异构匹配和路线与充电联动。本题使用固定库存、逐箱时限及独立共享电池，且每次复用前须充满，因此不沿用其机队租金、按剩余电量触发充电或任务整体超时罚金。
+
+将ALNS换成GA并不自动提高质量，也不会产生最优性证明。本次采用混合方法：ALNS产生批次和访问顺序，整数规划在候选池内同时决定保留哪些批次、使用哪种机型以及何时开始。论文名称含有“精确算法”，不代表将其思想移植后的程序也是原问题的精确算法。
+
+\section{原代码核查结果}
+\begin{longtable}{p{0.22\textwidth}p{0.72\textwidth}}
+\toprule 检查项 & 结论与处理\\\midrule\endhead
+非线性能耗与载荷 & 原代码正确按投送后的剩余载荷计算后续航段，返航为空载；保留。\\
+医疗与首批硬时限 & 原代码已将医疗期望时间和首批截止时间作为硬要求；两者同时适用时取较早值。\\
+共享电池 & 原代码已按独立电池编号和两阶段充电管理，无需将其误判为缺失功能。\\
+DEM文件与端点 & 原代码仅读取MAT。本次增加GeoTIFF；按文件的PixelIsPoint标识将tiepoint解释为像元中心，避免额外半像元偏移。原端点吸附算法在120条无向航段中有24条最高高程不同，最大低估14.7147米，最大高估11.8738米。\\
+访问点数量 & 原代码将4点上限写入可行性判定，但题目没有该限制。改进允许最多15个不同服务区；大于5点时不再进行阶乘枚举。\\
+调度判断 & 单一贪心解码失败不等于原问题无解。增加多个解码规则与整数规划重排，失败时保留已有可行解。\\
+修复算子 & 原代码regret相同且代理增量相同后使用负优先系数，破同分方向与注释相反；改为较高优先系数、较紧迫时限优先。\\
+可复现性 & 对货箱集合显式排序，避免仅固定随机种子但仍受Python字符串散列顺序影响。记录种子、输入哈希与求解设置。\\
+可行性证据 & 从输入货箱和实际路线重新计算载荷、时间、能耗、SOC和充电，检查具体无人机与电池区间冲突，不以搜索器的feasible标记代替验证。\\
+输出与路径 & 取消固定Windows路径及必须存在结果模板的要求。自动发现文件，存在同格式多版本时明确报错；输出逐箱、架次、航段、停点、电池CSV及JSON。\\
+\bottomrule
+\end{longtable}
+
+\section{场景与计算约定}
+节点集合为 $V=\{0,1,\ldots,15\}$，其中 $0$ 表示O01。货箱集合 $\mathcal B$ 含80箱。箱 $b$ 的目的地、质量、体积、优先系数和期望时刻分别为 $i_b,w_b,v_b,\omega_b,d_b$。全部物资从O01出发，箱不可拆分且仅交付一次。机型集合 $G=\{A,B,C\}$。
+\begin{center}
+\begin{tabular}{lrrrrr}\toprule
+机型 & 实体无人机 & 共享电池 & 最大载荷/kg & 装载体积/m$^3$ & 完全充电/s\\\midrule
+A & 4 & 6 & 25 & 0.060 & 1800\\
+B & 2 & 4 & 30 & 0.073 & 2400\\
+C & 2 & 4 & 80 & 0.250 & 3000\\\bottomrule
+\end{tabular}
+\end{center}
+全部电池初始满电，返航SOC下限为20\%。共享电池数包含在机电池与备用电池，不能再额外增加8组。不同机型不能混用电池，不同电池允许并行充电，题目未给有限充电桩或工位数量，因此不自行添加数量约束。问题二不使用通信链路和中继数据，也不引入道路通行或村落补点。
+
+本实现约定从准备装载开始，同时占用实体无人机与满电电池；电池返航后立即进入充电。同一停点的货箱统一以该停点全部交接完成时刻记交付，因而是保守交付口径。时间窗只限制送达，不要求返航早于该箱截止。最终完工时间不含最后一批电池的任务后充电。
+
+候选架次采用不重复服务区的基本路线。题目没有给出必须采用该类路线的最优性结论，因此这是当前搜索空间的限制；程序不声称覆盖允许任意重复访问的所有路线。若未来需要允许重复访问，应同时调整停点交付分配与载荷递推，不能只提高点数上限。
+
+\section{航段与架次精确评价}
+\subsection{地形净空和航段时间}
+设 $\mathcal C_{ij}$ 为由真实端点连接的水平线段经过或接触的DEM像元集合，$z_c$ 为像元高程。采用包含角点接触像元的supercover口径，定义
+\begin{equation}
+ H_{ij}=\max_{c\in\mathcal C_{ij}}z_c+50,\quad
+ h_i=\begin{cases}z_i,&i=0,\\z_i+30,&i\ne0,\end{cases}\quad
+ h_{ij}^{+}=H_{ij}-h_i,\quad h_{ij}^{-}=H_{ij}-h_j.
+\end{equation}
+节点作业高度以附件节点表为准。所有任务航段均验证巡航高度不低于两端作业高度；NoData不能直接略过。程序以球面距离计算小区域水平长度 $d_{ij}$，并在规则经纬度栅格上按实际端点线段遍历。机型 $g$ 的飞行时间为
+\begin{equation}
+ \tau_{gij}=\frac{h_{ij}^{+}}{v_g^\uparrow}+\frac{d_{ij}}{v_g^c}+\frac{h_{ij}^{-}}{v_g^\downarrow}.
+\end{equation}
+每次投送后均从服务区30米作业高度重新爬升。不能用整条多点路线的统一巡航高度替换题目规定的逐航段高度。
+
+\subsection{非线性能耗和后缀载荷}
+机型 $g$ 的最大载荷、空满载标准航程、可用电量、含电池空载质量和爬升效率分别记为 $Q_g$、$L_g^0$、$L_g^F$、$E_g^{use}$、$m_g^0$ 和 $\eta_g$。沿用题目等效航程模型，并按标准航程定义水平耗能：
+\begin{align}
+ L_g(q)&=L_g^0-(L_g^0-L_g^F)\left(\frac q{Q_g}\right)^{3/2},\\
+ E_{gij}(q)&=E_g^{use}\frac{d_{ij}}{L_g(q)}
+       +\frac{(m_g^0+q)\,9.81\,h_{ij}^{+}}{3.6\times10^6\eta_g}.
+\end{align}
+能量单位为kWh，时间为秒。含电池空载质量已经包含电池，不重复计入。下降附加能耗按附件取零；题目没有提供运输悬停功率，本次不另加运输悬停能耗。
+
+架次 $p=(0,i_1,\ldots,i_m,0)$ 在停点 $i_l$ 交付箱集 $B_{pl}$。进入该停点前的载荷为
+\begin{equation}
+ q_{pl}=\sum_{k=l}^{m}\sum_{b\in B_{pk}}w_b,\qquad q_{p,m+1}=0.
+\end{equation}
+设 $B_p=\bigcup_l B_{pl}$。可行架次必须满足
+\begin{equation}
+ \sum_{b\in B_p}w_b\le Q_g,\qquad
+ \sum_{b\in B_p}v_b\le V_g,\qquad
+ E_p=\sum_{l=1}^{m+1}E_{g,i_{l-1},i_l}(q_{pl})\le(1-\rho_g)E_g^{use},
+\end{equation}
+其中 $i_0=i_{m+1}=0$。质量与体积均随投送单调减少，故在初始总载荷处检查容量即可。不同访问顺序具有不同后缀载荷与能耗，不能只按最短距离排序。
+
+\subsection{逐箱交付时刻与硬时限}
+记架次准备时间 $P_p=t_g^{prep}+|B_p|t_g^{load}$，第 $l$ 个停点交接时间 $u_{pl}=t_g^{base}+|B_{pl}|t_g^{box}$。从准备开始到停点交接结束的偏移为
+\begin{equation}
+ \delta_{pl}=P_p+\sum_{k=1}^{l}\big(\tau_{g,i_{k-1},i_k}+u_{pk}\big),\qquad
+ D_p=\delta_{pm}+\tau_{g,i_m,0}.
+\end{equation}
+若架次从 $s_p$ 开始，则 $b\in B_{pl}$ 的送达时刻是 $T_b=s_p+\delta_{pl}$，返航时刻为 $F_p=s_p+D_p$。定义
+\begin{equation}
+ \bar d_b=\min\left(\{d_b:b\text{为医疗箱}\}\cup
+ \{d_b^{first}:b\text{为首批箱}\}\right),
+\end{equation}
+空集合的最小值记为 $+\infty$。硬约束为 $T_b\le\bar d_b$。其他箱的期望时刻进入及时性指标，不强制全部作为硬时间窗。架次最晚开始时刻为
+\begin{equation}
+ \ell_p=\min_{b\in B_p}(\bar d_b-\delta_{bp}).
+\end{equation}
+
+\subsection{电池周转}
+返航SOC与充电时长分别为 $\sigma_p=1-E_p/E_g^{use}$ 及
+\begin{equation}
+ c_p=T_g^{full}\begin{cases}
+ 0.65(0.90-\sigma_p)/0.90+0.35,&0\le\sigma_p<0.90,\\
+ 0.35(1-\sigma_p)/0.10,&0.90\le\sigma_p\le1.
+ \end{cases}
+\end{equation}
+同一无人机的任务区间 $[s_p,F_p)$ 不得重叠；同一电池的任务加充电区间 $[s_p,F_p+c_p)$ 不得重叠。电池可在相同机型的不同无人机间流转，无需与某一无人机终身绑定。
+
+\section{多目标与联合调度模型}
+配送及时性、完工时间、能耗与架次数定义为
+\begin{equation}
+ L=\sum_{b\in\mathcal B}\omega_b\frac{\pos{T_b-d_b}}{d_b},\quad
+ C_{\max}=\max_p F_p,\quad E=\sum_p E_p,\quad N=\text{执行架次数}.
+\end{equation}
+医疗与首批要求始终是硬约束，不能通过降低罚系数容忍违反。$L$ 是无量纲加权相对迟到，不是迟到秒数。本题 $d_b>0$。归一化尺度固定为同一初始可行解：$L_0=\max(1,L^{init})$，其余尺度为 $C_0,E_0,N_0$，所有随机种子和偏好方案共用。优化目标为
+\begin{equation}\label{eq:objective}
+ \min J=\alpha_L\frac L{L_0}+\alpha_C\frac{C_{\max}}{C_0}
+          +\alpha_E\frac E{E_0}+\alpha_N\frac N{N_0}.
+\end{equation}
+权重表示建模偏好，而非题目给定常数。程序计算四组偏好，并对结果集做非支配性检查：
+\begin{center}\begin{tabular}{lrrrr}\toprule
+偏好 &$\alpha_L$&$\alpha_C$&$\alpha_E$&$\alpha_N$\\\midrule
+均衡 &0.45&0.25&0.20&0.10\\
+完工时间 &0.45&0.40&0.10&0.05\\
+能耗 &0.45&0.10&0.40&0.05\\
+架次数 &0.45&0.10&0.10&0.35\\\bottomrule
+\end{tabular}\end{center}
+不同权重可能选中同一个方案，这表示当前候选解集中不存在足以改变选择的权衡，不能伪造四套不同路线。权重和并不能找到全部非凸Pareto前沿。需要更明确的业务偏好时，可改用 $L\le\varepsilon_L$、$C_{\max}\le\varepsilon_C$ 等约束再最小化能耗或架次。
+
+\subsection{候选路线与时间索引整数规划}
+每个候选 $p\in\mathcal P$ 已包含具体箱集、访问顺序和机型 $g(p)$，因此非线性能耗已按原式算成常数。变量 $x_{pk}\in\{0,1\}$ 表示候选在时刻 $k\Delta$ 开始。仅生成满足 $k\Delta\le\ell_p$ 且 $k\Delta+D_p\le H$ 的列。记 $a_{bp}=1$ 表示候选包含箱 $b$，$n_g$、$B_g$ 分别为机型无人机数和共享电池数。
+
+逐箱集合划分约束为
+\begin{equation}
+ \sum_{p\in\mathcal P}\sum_k a_{bp}x_{pk}=1,\qquad b\in\mathcal B.
+\end{equation}
+资源占用向上取整，$d_p^\Delta=\lceil D_p/\Delta\rceil$，$b_p^\Delta=\lceil(D_p+c_p)/\Delta\rceil$。每个时间槽 $t$ 满足
+\begin{align}
+ \sum_{p:g(p)=g}\sum_{k:k\le t<k+d_p^\Delta}x_{pk}&\le n_g,\\
+ \sum_{p:g(p)=g}\sum_{k:k\le t<k+b_p^\Delta}x_{pk}&\le B_g.
+\end{align}
+由于开始时刻均落在格点上，这种占用检查不会漏掉格内真实重叠。对每个箱加入
+\begin{equation}
+ C_{\max}\ge\sum_{p,k}a_{bp}(k\Delta+D_p)x_{pk}.
+\end{equation}
+每个箱恰好属于一个选中架次，因此这些约束的共同最大值正是最晚返航时刻。还加入机型总工作量下界 $n_gC_{\max}\ge\sum_{p:g(p)=g,k}D_px_{pk}$ 以加强松弛。及时性项可预计算为
+\begin{equation}
+ L_{pk}=\sum_{b\in B_p}\omega_b\frac{\pos{k\Delta+\delta_{bp}-d_b}}{d_b},\qquad
+ L=\sum_{p,k}L_{pk}x_{pk}.
+\end{equation}
+于是式\eqref{eq:objective}是线性目标，所有物理能耗仍为非线性原式的精确评价结果，并没有用线性近似代替能耗。
+
+\subsection{从资源数量到具体编号}
+同一机型内的无人机和电池参数一致，初始均可用。给定选中的时间区间后，按开始时刻排序，将每个区间分配给最早释放的实体。区间图的染色数等于最大同时占用数，故上述两组容量约束足以恢复有限库存内的具体无人机和电池编号。无人机占用区间与电池占用区间分别染色，再按架次配对即可；这利用了电池可在同机型实体间共享的条件。
+
+\section{求解流程与最优性边界}
+首先按医疗和首批任务构造紧急种子，普通物资按容量和物理能量形成批次；每轮ALNS执行随机、地理相关、迟到相关或整条路线移除，再进行regret-2修复。多个调度规则分别尝试机型与时序安排，以真实完整调度指标择优。保存搜索中出现的物理可行路线，并进行两个整数规划阶段：固定箱集与访问顺序的机型时序优化，以及允许候选批次重组的联合优化。
+
+整数规划完成后，保持每个具体资源上的架次先后关系，以连续时间向前压紧空隙。该操作不会推迟任何交付、改变能耗或增加架次，因此不会恶化目标。求解器时限结束无可行整数解时，保留已验证的启发式方案。
+
+本次时间网格为60秒，计算时域由初始完工时间的1.4倍确定，路线池为有限搜索所得。求解器报告的下界和gap只属于其记录的候选池、时间网格及计算时域。即使gap为零，也只能称该受限模型求解完成；它不是原连续时间问题的全局下界或全局最优证明。压紧后的解可能离开原开始时刻网格，不能再直接套用压紧前的gap。要证明原问题全局最优，需要完整可行路线空间与相应的精确定价、分支定价/切割，或可证完整的连续时间混合整数模型。
+
+\section{附件算例结果与资源验证}
+\input{Q2_results_tables.tex}
+
+应急及时性与节能、减少架次通常存在权衡：合并多箱和多服务区可能节省固定准备及往返开销，却增加初始载荷和后续货箱等待；提前派出轻载批次有利于紧迫物资，但可能增加架次。大机型载荷大，不能据此认定单位任务能耗最低。更多电池只在充电周转约束紧张时有帮助，并不能突破实体无人机数。
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=.98\linewidth]{results/drone_schedule.pdf}
+\caption{均衡方案具体无人机调度，浅色段表示准备装载。横轴以分钟显示，计算仍采用秒。}
+\end{figure}
+\begin{figure}[htbp]\centering
+\includegraphics[width=.98\linewidth]{results/battery_schedule.pdf}
+\caption{均衡方案共享电池使用与充电。斜线区间为充电，最后一次充电不计入任务完工时间。}
+\end{figure}
+
+\section{代码与结果使用}
+程序只读取节点、货箱、运输无人机和DEM四类输入。压缩包已包含本次输入和已计算的各偏好方案。命令行示例：
+\begin{verbatim}
+python q2_solver_improved.py --root data --output new_results 
+  --iters 500 --seeds 20260924 20260925 --milp-seconds 90
+python verify_q2.py --root data
+  --solution results/balanced/solution.json
+\end{verbatim}
+实际输入命令时将续行合并为一行，Windows用户也可使用随附批处理文件。要复现本次有基线热启动的运行，添加
+\texttt{--warm-routes baseline\_routes.json}。若不提供，该文件不是必需输入。
+
+时间上限可能导致不同CPU上整数规划取得不同的当前最好解，已保存的逐架次计划及独立校验不依赖重跑搜索。
+
+CSV采用UTF-8带BOM，可直接在Excel打开。各偏好文件夹分别保存架次、逐箱、航段、交接与电池表，另有机器可读JSON和审计报告。根目录保存输入哈希、种子、指标尺度、各子问题状态和局部gap。当前Excel汇总为本次已计算结果，修改权重需要重新运行优化程序；表内重新计算不能替代路线优化。模型LaTeX可直接用XeLaTeX编译，论文正文可选取所需段落并调整章节层级。
+
+\begin{thebibliography}{9}
+\bibitem{Cheng2020} Cheng C, Adulyasak Y, Rousseau L M. Drone routing with energy function: Formulation and exact algorithm[J]. Transportation Research Part B: Methodological, 2020, 139: 364--387. DOI: \href{https://doi.org/10.1016/j.trb.2020.06.011}{10.1016/j.trb.2020.06.011}.
+\bibitem{Phala2023} Phalapanyakoon K, Siripongwutikorn P. Route planning of heterogeneous unmanned aerial vehicles under recharging and mission time with carrying payload constraints[J]. Journal of Industrial Engineering and Management, 2023, 16(2): 215--235. DOI: \href{https://doi.org/10.3926/jiem.4381}{10.3926/jiem.4381}.
+\end{thebibliography}
+\end{document}

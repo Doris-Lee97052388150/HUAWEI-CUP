@@ -1,0 +1,9 @@
+{
+  "weighted_lateness": 5.65441850626283,
+  "makespan": 7995.531534190492,
+  "energy": 65.38711165550473,
+  "trips": 20,
+  "hard_violations": 0,
+  "on_time_boxes": 74,
+  "multi_stop_trips": 8
+}
