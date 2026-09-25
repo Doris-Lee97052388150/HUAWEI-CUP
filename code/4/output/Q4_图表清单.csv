@@ -1,0 +1,66 @@
+﻿序号,PNG文件,PDF文件,标题,正文建议,PNG存在,PDF存在
+1,fig_q4_01_solution_flow.png,fig_q4_01_solution_flow.pdf,问题四总体求解流程,正文强烈推荐,1,1
+2,fig_q4_02_scenario_definition.png,fig_q4_02_scenario_definition.pdf,严格继承与按组复制两种情景,正文强烈推荐,1,1
+3,fig_q4_03_unit_service_count.png,fig_q4_03_unit_service_count.pdf,各运输不可拆分单元包含的服务区数量,正文备选,1,1
+4,fig_q4_04_unit_trip_count.png,fig_q4_04_unit_trip_count.pdf,各运输不可拆分单元承担的运输架次数,备选,1,1
+5,fig_q4_05_unit_transport_workload.png,fig_q4_05_unit_transport_workload.pdf,各运输不可拆分单元的运输作业工作量,正文备选,1,1
+6,fig_q4_06_hypergraph_incidence.png,fig_q4_06_hypergraph_incidence.pdf,中继架次—运输单元关联矩阵,正文强烈推荐,1,1
+7,fig_q4_07_unit_relay_bipartite.png,fig_q4_07_unit_relay_bipartite.pdf,运输单元—中继架次二部关联图,正文强烈推荐,1,1
+8,fig_q4_08_strict_connectivity.png,fig_q4_08_strict_connectivity.pdf,严格继承口径下的运输单元连通图,正文强烈推荐,1,1
+9,fig_q4_09_partition_counts.png,fig_q4_09_partition_counts.pdf,完整枚举的无标签分区数量,正文推荐,1,1
+10,fig_q4_10_unit_relay_degree.png,fig_q4_10_unit_relay_degree.pdf,各运输单元关联的实际中继架次数,备选,1,1
+11,fig_q4_11_relay_hyperedge_size.png,fig_q4_11_relay_hyperedge_size.pdf,各中继架次连接的运输单元数量,正文备选,1,1
+12,fig_q4_12_K2_relay_drone_hist.png,fig_q4_12_K2_relay_drone_hist.pdf,K=2 全部分区的中继无人机总需求分布,正文备选,1,1
+13,fig_q4_13_K3_relay_drone_hist.png,fig_q4_13_K3_relay_drone_hist.pdf,K=3 全部分区的中继无人机总需求分布,正文备选,1,1
+14,fig_q4_14_K2_relay_energy_hist.png,fig_q4_14_K2_relay_energy_hist.pdf,K=2 全部分区的中继能源组件需求分布,备选,1,1
+15,fig_q4_15_K3_relay_energy_hist.png,fig_q4_15_K3_relay_energy_hist.pdf,K=3 全部分区的中继能源组件需求分布,备选,1,1
+16,fig_q4_16_K2_copy_hist.png,fig_q4_16_K2_copy_hist.pdf,K=2 中继任务新增副本数分布,正文推荐,1,1
+17,fig_q4_17_K3_copy_hist.png,fig_q4_17_K3_copy_hist.pdf,K=3 中继任务新增副本数分布,正文推荐,1,1
+18,fig_q4_18_K2_copy_balance_scatter.png,fig_q4_18_K2_copy_balance_scatter.pdf,K=2 中继复制代价—运输工作量均衡关系,正文强烈推荐,1,1
+19,fig_q4_19_K3_copy_balance_scatter.png,fig_q4_19_K3_copy_balance_scatter.pdf,K=3 中继复制代价—运输工作量均衡关系,正文强烈推荐,1,1
+20,fig_q4_20_K2_relay_balance_scatter.png,fig_q4_20_K2_relay_balance_scatter.pdf,K=2 中继无人机配置—运输工作量均衡关系,正文推荐,1,1
+21,fig_q4_21_K3_relay_balance_scatter.png,fig_q4_21_K3_relay_balance_scatter.pdf,K=3 中继无人机配置—运输工作量均衡关系,正文推荐,1,1
+22,fig_q4_22_K2_shortage_balance_scatter.png,fig_q4_22_K2_shortage_balance_scatter.pdf,K=2 总资源缺口—运输工作量均衡关系,备选,1,1
+23,fig_q4_23_K3_shortage_balance_scatter.png,fig_q4_23_K3_shortage_balance_scatter.pdf,K=3 总资源缺口—运输工作量均衡关系,备选,1,1
+24,fig_q4_24_K2_copy_energy_scatter.png,fig_q4_24_K2_copy_energy_scatter.pdf,K=2 中继副本数量—新增能耗关系,备选,1,1
+25,fig_q4_25_K3_copy_energy_scatter.png,fig_q4_25_K3_copy_energy_scatter.pdf,K=3 中继副本数量—新增能耗关系,备选,1,1
+26,fig_q4_26_K2_resource_vs_stock.png,fig_q4_26_K2_resource_vs_stock.pdf,K=2主方案资源需求与库存对比,正文强烈推荐,1,1
+27,fig_q4_27_K3_resource_vs_stock.png,fig_q4_27_K3_resource_vs_stock.pdf,K=3主方案资源需求与库存对比,正文强烈推荐,1,1
+28,fig_q4_28_K2_group_resource_heatmap.png,fig_q4_28_K2_group_resource_heatmap.pdf,K=2各任务组独立资源配置矩阵,正文推荐,1,1
+29,fig_q4_29_K3_group_resource_heatmap.png,fig_q4_29_K3_group_resource_heatmap.pdf,K=3各任务组独立资源配置矩阵,正文推荐,1,1
+30,fig_q4_30_K2_group_workload.png,fig_q4_30_K2_group_workload.pdf,K=2主方案组间工作量,正文强烈推荐,1,1
+31,fig_q4_31_K3_group_workload.png,fig_q4_31_K3_group_workload.pdf,K=3主方案组间工作量,正文强烈推荐,1,1
+32,fig_q4_32_resource_redundancy_compare.png,fig_q4_32_resource_redundancy_compare.pdf,三种资源共享口径的配置规模比较,正文强烈推荐,1,1
+33,fig_q4_33_original_ids_vs_minimum.png,fig_q4_33_original_ids_vs_minimum.pdf,问题三资源编号与最少共享需求对比,正文推荐,1,1
+34,fig_q4_34_K2_service_membership.png,fig_q4_34_K2_service_membership.pdf,K=2主方案服务区归属条带图,正文备选,1,1
+35,fig_q4_35_K3_service_membership.png,fig_q4_35_K3_service_membership.pdf,K=3主方案服务区归属条带图,正文备选,1,1
+36,fig_q4_36_K2_relay_replication.png,fig_q4_36_K2_relay_replication.pdf,K=2中继任务按组复制矩阵,正文推荐,1,1
+37,fig_q4_37_K3_relay_replication.png,fig_q4_37_K3_relay_replication.pdf,K=3中继任务按组复制矩阵,正文推荐,1,1
+38,fig_q4_38_redundancy_source.png,fig_q4_38_redundancy_source.pdf,主方案资源冗余来源,正文推荐,1,1
+39,fig_q4_39_K2_copy_energy.png,fig_q4_39_K2_copy_energy.pdf,K=2 各跨组中继任务的新增复制能耗,正文推荐,1,1
+40,fig_q4_40_K3_copy_energy.png,fig_q4_40_K3_copy_energy.pdf,K=3 各跨组中继任务的新增复制能耗,正文推荐,1,1
+41,fig_q4_41_K2_transport_gantt.png,fig_q4_41_K2_transport_gantt.pdf,K=2固定运输任务按组甘特图,附录/备选,1,1
+42,fig_q4_42_K3_transport_gantt.png,fig_q4_42_K3_transport_gantt.pdf,K=3固定运输任务按组甘特图,附录/备选,1,1
+43,fig_q4_43_K2_relay_gantt.png,fig_q4_43_K2_relay_gantt.pdf,K=2中继副本甘特图,正文推荐,1,1
+44,fig_q4_44_K3_relay_gantt.png,fig_q4_44_K3_relay_gantt.pdf,K=3中继副本甘特图,正文推荐,1,1
+45,fig_q4_45_K2_balance_sensitivity.png,fig_q4_45_K2_balance_sensitivity.pdf,K=2均衡阈值敏感性,正文备选,1,1
+46,fig_q4_46_K3_balance_sensitivity.png,fig_q4_46_K3_balance_sensitivity.pdf,K=3均衡阈值敏感性,正文备选,1,1
+47,fig_q4_47_K2_top_candidates.png,fig_q4_47_K2_top_candidates.pdf,K=2前25候选方案对比,附录/备选,1,1
+48,fig_q4_48_K3_top_candidates.png,fig_q4_48_K3_top_candidates.pdf,K=3前25候选方案对比,附录/备选,1,1
+49,fig_q4_49_K2_inventory_utilization.png,fig_q4_49_K2_inventory_utilization.pdf,K=2 主方案库存利用率,正文备选,1,1
+50,fig_q4_50_K3_inventory_utilization.png,fig_q4_50_K3_inventory_utilization.pdf,K=3 主方案库存利用率,正文备选,1,1
+51,fig_q4_51_K2_group_task_scale.png,fig_q4_51_K2_group_task_scale.pdf,K=2各组任务规模比较,正文备选,1,1
+52,fig_q4_52_K3_group_task_scale.png,fig_q4_52_K3_group_task_scale.pdf,K=3各组任务规模比较,正文备选,1,1
+53,fig_q4_53_K2_geo_partition.png,fig_q4_53_K2_geo_partition.pdf,K=2主方案空间分区图,正文强烈推荐,1,1
+54,fig_q4_54_K3_geo_partition.png,fig_q4_54_K3_geo_partition.pdf,K=3主方案空间分区图,正文强烈推荐,1,1
+55,fig_q4_55_K2_relay_positions.png,fig_q4_55_K2_relay_positions.pdf,K=2任务组与中继悬停点,正文备选,1,1
+56,fig_q4_56_K3_relay_positions.png,fig_q4_56_K3_relay_positions.pdf,K=3任务组与中继悬停点,正文备选,1,1
+57,fig_q4_57_K2_geo_routes.png,fig_q4_57_K2_geo_routes.pdf,K=2固定运输路线与空间分区,正文强烈推荐,1,1
+58,fig_q4_58_K3_geo_routes.png,fig_q4_58_K3_geo_routes.pdf,K=3固定运输路线与空间分区,正文强烈推荐,1,1
+59,fig_q4_59_K2_geo_routes_relays.png,fig_q4_59_K2_geo_routes_relays.pdf,K=2运输分区与中继复制空间综合图,正文强烈推荐,1,1
+60,fig_q4_60_K3_geo_routes_relays.png,fig_q4_60_K3_geo_routes_relays.pdf,K=3运输分区与中继复制空间综合图,正文强烈推荐,1,1
+61,fig_q4_61_K2_group1_geo_detail.png,fig_q4_61_K2_group1_geo_detail.pdf,K=2任务组1空间执行细节,附录/备选,1,1
+62,fig_q4_62_K2_group2_geo_detail.png,fig_q4_62_K2_group2_geo_detail.pdf,K=2任务组2空间执行细节,附录/备选,1,1
+63,fig_q4_63_K3_group1_geo_detail.png,fig_q4_63_K3_group1_geo_detail.pdf,K=3任务组1空间执行细节,附录/备选,1,1
+64,fig_q4_64_K3_group2_geo_detail.png,fig_q4_64_K3_group2_geo_detail.pdf,K=3任务组2空间执行细节,附录/备选,1,1
+65,fig_q4_65_K3_group3_geo_detail.png,fig_q4_65_K3_group3_geo_detail.pdf,K=3任务组3空间执行细节,附录/备选,1,1

@@ -171,8 +171,70 @@
 \newlabel{fig:q3-joint-alns}{{11}{24}{问题三通信感知 Joint-ALNS 收敛曲线}{figure.caption.17}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.9}方案可行性检验}{25}{subsection.8.9}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.10}结果文件与程序输出}{25}{subsection.8.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {9}模型评价与改进}{25}{section.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}优点与局限}{25}{subsection.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}问题四：救援任务分区与独立资源配置}{25}{section.9}\protected@file@percent }
+\newlabel{sec:q4}{{9}{25}{问题四：救援任务分区与独立资源配置}{section.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}问题分析与总体思路}{25}{subsection.9.1}\protected@file@percent }
+\citation{q4-park2025}
+\citation{q4-chu2025}
+\citation{q4-zhang2026}
+\citation{q4-eyubov2025}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 问题四固定任务下的分区--资源配置求解流程}}{26}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:q4-flow}{{12}{26}{问题四固定任务下的分区--资源配置求解流程}{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}任务不可拆分单元与中继关联超图}{26}{subsection.9.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.2.1}运输不可拆分单元}{26}{subsubsection.9.2.1}\protected@file@percent }
+\newlabel{eq:q4-units}{{63}{26}{运输不可拆分单元}{equation.63}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.2.2}中继关联超图}{26}{subsubsection.9.2.2}\protected@file@percent }
+\newlabel{eq:q4-hyperedge}{{64}{26}{中继关联超图}{equation.64}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces 运输不可拆分单元与实际中继架次的二部关联图}}{27}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:q4-bipartite}{{13}{27}{运输不可拆分单元与实际中继架次的二部关联图}{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}按组复制中继任务的独立配置模型}{27}{subsection.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.3.1}分区变量与中继复制代价}{27}{subsubsection.9.3.1}\protected@file@percent }
+\newlabel{eq:q4-x}{{65}{27}{分区变量与中继复制代价}{equation.65}{}}
+\newlabel{eq:q4-y}{{66}{27}{分区变量与中继复制代价}{equation.66}{}}
+\citation{q4-kleinberg2006}
+\newlabel{eq:q4-lambda}{{67}{28}{分区变量与中继复制代价}{equation.67}{}}
+\newlabel{eq:q4-copy}{{68}{28}{分区变量与中继复制代价}{equation.68}{}}
+\newlabel{eq:q4-extra-energy}{{69}{28}{分区变量与中继复制代价}{equation.69}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.3.2}通信链路预算的继承性}{28}{subsubsection.9.3.2}\protected@file@percent }
+\newlabel{eq:q4-margin-inherit}{{70}{28}{通信链路预算的继承性}{equation.70}{}}
+\newlabel{eq:q4-margin-equal}{{71}{28}{通信链路预算的继承性}{equation.71}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.3.3}固定时刻表下的最少资源配置}{28}{subsubsection.9.3.3}\protected@file@percent }
+\citation{q4-krause2025}
+\newlabel{eq:q4-resource-depth}{{72}{29}{固定时刻表下的最少资源配置}{equation.72}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}评价指标与完整枚举求解}{29}{subsection.9.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.4.1}资源规模、冗余与缺口}{29}{subsubsection.9.4.1}\protected@file@percent }
+\newlabel{eq:q4-total-resource}{{73}{29}{资源规模、冗余与缺口}{equation.73}{}}
+\newlabel{eq:q4-redundancy}{{74}{29}{资源规模、冗余与缺口}{equation.74}{}}
+\newlabel{eq:q4-shortage}{{75}{29}{资源规模、冗余与缺口}{equation.75}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.4.2}组间工作量均衡}{29}{subsubsection.9.4.2}\protected@file@percent }
+\newlabel{eq:q4-workload}{{76}{29}{组间工作量均衡}{equation.76}{}}
+\newlabel{eq:q4-cv}{{77}{29}{组间工作量均衡}{equation.77}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.4.3}完整枚举与无权重分层筛选}{29}{subsubsection.9.4.3}\protected@file@percent }
+\newlabel{eq:q4-stirling}{{78}{29}{完整枚举与无权重分层筛选}{equation.78}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}求解结果与分析}{30}{subsection.9.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.5.1}严格继承情景的可分性结论}{30}{subsubsection.9.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.5.2}两组主方案}{30}{subsubsection.9.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces K=2 主方案任务分区与独立资源配置}}{30}{table.caption.20}\protected@file@percent }
+\newlabel{tab:q4-k2}{{7}{30}{K=2 主方案任务分区与独立资源配置}{table.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces K=2 主方案运输路线、任务分区与中继复制空间关系}}{31}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:q4-k2-geo}{{14}{31}{K=2 主方案运输路线、任务分区与中继复制空间关系}{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.5.3}三组主方案}{32}{subsubsection.9.5.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces K=3 主方案任务分区与独立资源配置}}{32}{table.caption.22}\protected@file@percent }
+\newlabel{tab:q4-k3}{{8}{32}{K=3 主方案任务分区与独立资源配置}{table.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces K=3 主方案运输路线、任务分区与中继复制空间关系}}{32}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:q4-k3-geo}{{15}{32}{K=3 主方案运输路线、任务分区与中继复制空间关系}{figure.caption.23}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.5.4}两种分区方式的资源与均衡比较}{33}{subsubsection.9.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces 统一共享、2组和3组独立配置的资源需求比较}}{33}{table.caption.24}\protected@file@percent }
+\newlabel{tab:q4-resource-compare}{{9}{33}{统一共享、2组和3组独立配置的资源需求比较}{table.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces K=2 主方案资源需求与现有库存对比}}{33}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:q4-k2-resource}{{16}{33}{K=2 主方案资源需求与现有库存对比}{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces K=3 主方案资源需求与现有库存对比}}{34}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:q4-k3-resource}{{17}{34}{K=3 主方案资源需求与现有库存对比}{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces K=2 中继复制代价与运输工作量均衡关系}}{34}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:q4-k2-tradeoff}{{18}{34}{K=2 中继复制代价与运输工作量均衡关系}{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces K=3 中继复制代价与运输工作量均衡关系}}{35}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:q4-k3-tradeoff}{{19}{35}{K=3 中继复制代价与运输工作量均衡关系}{figure.caption.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.6}方案可行性与结果审计}{35}{subsection.9.6}\protected@file@percent }
 \citation{web-placeholder}
 \bibcite{Dorling2017}{1}
 \bibcite{Zhang2021Energy}{2}
@@ -181,14 +243,23 @@
 \bibcite{Potvin1993Regret}{5}
 \bibcite{Kirkpatrick1983SA}{6}
 \bibcite{CopernicusDEM}{7}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.7}程序输出与图表体系}{36}{subsection.9.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10}模型评价与改进}{36}{section.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}优点与局限}{36}{subsection.10.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}改进方向}{36}{subsection.10.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11}结论}{36}{section.11}\protected@file@percent }
 \bibcite{TIBattery}{8}
 \bibcite{q3-itu525}{9}
 \bibcite{q3-zeng2016}{10}
 \bibcite{q3-mozaffari2016}{11}
 \bibcite{q3-dorling2017}{12}
 \bibcite{q3-ropke2006}{13}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}改进方向}{26}{subsection.9.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {10}结论}{26}{section.10}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces 【复现材料清单】}}{27}{table.caption.20}\protected@file@percent }
-\newlabel{tab:reproduction}{{7}{27}{\Placeholder {复现材料清单}}{table.caption.20}{}}
-\gdef \@abspage@last{28}
+\bibcite{q4-eyubov2025}{14}
+\bibcite{q4-krause2025}{15}
+\bibcite{q4-kleinberg2006}{16}
+\bibcite{q4-park2025}{17}
+\bibcite{q4-chu2025}{18}
+\bibcite{q4-zhang2026}{19}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces 【复现材料清单】}}{38}{table.caption.31}\protected@file@percent }
+\newlabel{tab:reproduction}{{10}{38}{\Placeholder {复现材料清单}}{table.caption.31}{}}
+\gdef \@abspage@last{39}

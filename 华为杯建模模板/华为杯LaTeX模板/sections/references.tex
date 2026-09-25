@@ -81,5 +81,54 @@
 	\emph{Transportation Science},
 	vol. 40, no. 4, pp. 455--472, 2006.
 	
+	% 问题四建议参考文献条目（题名、作者、卷页与 DOI 已核对）
+	% 可直接并入主文档 thebibliography；正文使用下列 cite key。
+	
+	\bibitem{q4-eyubov2025}
+	K. Eyubov, M. Fonseca Faraj, and C. Schulz,
+	``FREIGHT: Fast Streaming Hypergraph Partitioning,''
+	\emph{Algorithmica}, vol. 87, pp. 405--428, 2025,
+	doi: 10.1007/s00453-024-01291-8.
+	% 本文用途：超图表示、高阶共享关系及 connectivity / lambda-1 指标。
+	% 注意：本题只借鉴其超图建模与指标，不采用 FREIGHT 流式求解算法。
+	
+	\bibitem{q4-krause2025}
+	R. Krause, L. Gottesb\"uren, and N. Maas,
+	``Deterministic Parallel High-Quality Hypergraph Partitioning,''
+	in \emph{2025 Proceedings of the Conference on Applied and Computational Discrete Algorithms (ACDA)},
+	pp. 222--236, 2025,
+	doi: 10.1137/1.9781611979084.17.
+	% 本文用途：平衡超图划分与确定性/可复现求解背景。
+	% 本题规模仅9个运输单元，实际采用完整枚举，不宣称采用其并行多层算法。
+	
+	\bibitem{q4-kleinberg2006}
+	J. Kleinberg and \`E. Tardos,
+	\emph{Algorithm Design}. Boston, MA, USA: Pearson/Addison-Wesley, 2006, Ch. 4.
+	% 本文用途：Interval Partitioning；固定时间区间下，同质资源的最少数量等于最大重叠深度，
+	% 按开始时刻并优先复用最早释放资源的贪心算法达到该下界。
+	
+	\bibitem{q4-park2025}
+	J. Park, G. Noh, C. Park, J. Kim, J. Kim, D. Lee, and D. Cho,
+	``Development of mission allocation based on MILP for multi-UAVs with limited resources,''
+	\emph{Aerospace Science and Technology}, vol. 166, Art. no. 110598, 2025,
+	doi: 10.1016/j.ast.2025.110598.
+	% 本文用途：有限资源条件下多无人机任务分配的研究背景；强调资源约束与任务属性必须显式核算。
+	% 本题不采用其 MILP 求解器，因为问题三时刻表已固定且Q4只剩9个不可拆分单元。
+	
+	\bibitem{q4-chu2025}
+	J. Chu, F. Yan, and Z. Xu,
+	``Communication-constrained multi-UAV task allocation method for non-independent tasks,''
+	\emph{Engineering Science and Technology, an International Journal}, vol. 70, Art. no. 102166, 2025,
+	doi: 10.1016/j.jestch.2025.102166.
+	% 本文用途：通信约束与任务依赖共同影响多无人机任务分配的研究背景。
+	% 本题中的依赖关系来自问题三既定运输架次与实际中继保障关系。
+	
+	\bibitem{q4-zhang2026}
+	L. Zhang, W. Chen, and J. Chang,
+	``A search and rescue task allocation algorithm for UAV swarms based on dynamic power management,''
+	\emph{Journal of Information and Intelligence}, 2026, in press,
+	doi: 10.1016/j.jiixd.2026.05.003.
+	% 本文用途：灾后搜救中任务时效、能源与物资资源协同配置的近期研究背景。
+		
 	
 \end{thebibliography}

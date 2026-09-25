@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.17)  24 SEP 2026 16:44
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.17)  24 SEP 2026 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1005,15 +1005,66 @@ File: ../../code/3/output/fig_q3_7_joint_alns.png Graphic file (type bmp)
 [24]
 
 [25]
+File: ../../code/4/output/figures/fig_q4_01_solution_flow.pdf Graphic file (typ
+e pdf)
+<use ../../code/4/output/figures/fig_q4_01_solution_flow.pdf>
+File: ../../code/4/output/figures/fig_q4_07_unit_relay_bipartite.pdf Graphic fi
+le (type pdf)
+<use ../../code/4/output/figures/fig_q4_07_unit_relay_bipartite.pdf>
 
-LaTeX Warning: Citation `web-placeholder' on page 26 undefined on input line 18
-14.
+
+[26]
+
+[27]
+
+[28]
+
+[29]
+File: ../../code/4/output/figures/fig_q4_59_K2_geo_routes_relays.pdf Graphic fi
+le (type pdf)
+<use ../../code/4/output/figures/fig_q4_59_K2_geo_routes_relays.pdf>
+
+
+[30]
+
+[31]
+File: ../../code/4/output/figures/fig_q4_60_K3_geo_routes_relays.pdf Graphic fi
+le (type pdf)
+<use ../../code/4/output/figures/fig_q4_60_K3_geo_routes_relays.pdf>
+
+
+[32]
+File: ../../code/4/output/figures/fig_q4_26_K2_resource_vs_stock.pdf Graphic fi
+le (type pdf)
+<use ../../code/4/output/figures/fig_q4_26_K2_resource_vs_stock.pdf>
+File: ../../code/4/output/figures/fig_q4_27_K3_resource_vs_stock.pdf Graphic fi
+le (type pdf)
+<use ../../code/4/output/figures/fig_q4_27_K3_resource_vs_stock.pdf>
+
+
+[33]
+File: ../../code/4/output/figures/fig_q4_18_K2_copy_balance_scatter.pdf Graphic
+ file (type pdf)
+<use ../../code/4/output/figures/fig_q4_18_K2_copy_balance_scatter.pdf>
+File: ../../code/4/output/figures/fig_q4_19_K3_copy_balance_scatter.pdf Graphic
+ file (type pdf)
+<use ../../code/4/output/figures/fig_q4_19_K3_copy_balance_scatter.pdf>
+
+
+[34]
+
+[35]
+
+LaTeX Warning: Citation `web-placeholder' on page 36 undefined on input line 23
+35.
 
 ) (./sections/references.tex
 
-[26]) (./sections/appendix.tex)
+[36]) (./sections/appendix.tex
 
-[27] (./main.aux)
+[37])
+
+[38] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -1023,15 +1074,15 @@ L3 programming layer <2022/07/14>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 915CE4E4DE7F404CAA24C42074093A62;8878.
+(rerunfilecheck)             Checksum: F97735EDCD280B43254A1953CAC4E3F2;11797.
  ) 
 Here is how much of TeX's memory you used:
- 18784 strings out of 473832
- 417739 string characters out of 5720305
- 816319 words of memory out of 5000000
- 41525 multiletter control sequences out of 15000+600000
+ 18938 strings out of 473832
+ 424916 string characters out of 5720305
+ 820848 words of memory out of 5000000
+ 41670 multiletter control sequences out of 15000+600000
  571771 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,12n,100p,1204b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,100p,1204b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (28 pages).
+Output written on main.pdf (39 pages).
